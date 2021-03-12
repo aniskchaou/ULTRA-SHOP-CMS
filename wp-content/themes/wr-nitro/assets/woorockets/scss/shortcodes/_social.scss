@@ -1,0 +1,243 @@
+/*	[ Social]
+- - - - - - - - - - - - - - - - - - - - */
+.social-bar {
+	a {
+		border: 1px solid transparent;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	&.small a {
+		@include btn-square(30px);
+		font-size: 14px;
+	}
+	&.normal a {
+		@include btn-square(45px);
+		font-size: 20px;
+	}
+	&.large a {
+		@include btn-square(60px);
+		font-size: 25px;
+	}
+	&.solid_rounded a,
+	&.outline_rounded a {
+		border-radius: 4px;
+	}
+	&.solid_circle a,
+	&.outline_circle a {
+		border-radius: 50%;
+	}
+	&.multicolor a {
+		color: #fff;
+	}
+}
+
+.social-bar a span,
+.wr-buy-now a span {
+	@extend %translateX-50;
+	left: 50%;
+	bottom: 140%;
+	text-transform: capitalize;
+}
+.social-bar a:hover span,
+.wr-buy-now a:hover span {
+	@include visible;
+	@include calc(bottom, '100% - -10px');
+}
+.social-bar[class*="outline"].multicolor a.facebook,
+.social-bar.default.multicolor a.facebook,
+.wr-color-facebook,
+.wr-color-hover-facebook {
+	color: #6078aa;
+}
+.social-bar[class*="outline"].multicolor a.twitter,
+.social-bar.default.multicolor a.twitter,
+.wr-color-twitter,
+.wr-color-hover-twitter {
+	color: #00abf0;
+}
+.social-bar[class*="outline"].multicolor a.google-plus,
+.social-bar.default.multicolor a.google-plus,
+.wr-color-google-plus,
+.wr-color-hover-google-plus {
+	color: #d95232;
+}
+.social-bar[class*="outline"].multicolor a.linkedin,
+.social-bar.default.multicolor a.linkedin,
+.wr-color-linkedin,
+.wr-color-hover-linkedin {
+	color: #0073b2;
+}
+.social-bar[class*="outline"].multicolor a.instagram,
+.social-bar.default.multicolor a.instagram,
+.wr-color-instagram,
+.wr-color-hover-instagram {
+	color: #474135;
+}
+.social-bar[class*="outline"].multicolor a.skype,
+.social-bar.default.multicolor a.skype,
+.wr-color-skype,
+.wr-color-hover-skype {
+	color: #03a8e9;
+}
+.social-bar[class*="outline"].multicolor a.pinterest,
+.social-bar.default.multicolor a.pinterest,
+.wr-color-pinterest,
+.wr-color-hover-pinterest {
+	color: #db2828;
+}
+.social-bar[class*="outline"].multicolor a.github,
+.social-bar.default.multicolor a.github {
+	color: #3d3d3d;
+}
+.social-bar[class*="outline"].multicolor a.foursquare,
+.social-bar.default.multicolor a.foursquare {
+	color: #35c6ff;
+}
+.social-bar[class*="outline"].multicolor a.dribbble,
+.social-bar.default.multicolor a.dribbble,
+.wr-color-dribbble,
+.wr-color-hover-dribbble {
+	color: #fa77b4;
+}
+.social-bar[class*="outline"].multicolor a.behance,
+.social-bar.default.multicolor a.behance,
+.wr-color-behance,
+.wr-color-hover-behance {
+	color: #019BFF;
+}
+.social-bar[class*="outline"].multicolor a.tumblr,
+.social-bar.default.multicolor a.tumblr,
+.wr-color-tumblr,
+.wr-color-hover-tumblr {
+	color: #2E5F83;
+}
+.social-bar[class*="outline"].multicolor a.youtube,
+.social-bar.default.multicolor a.youtube,
+.wr-color-youtube,
+.wr-color-hover-youtube {
+	color: #db2828;
+}
+.social-bar[class*="outline"].multicolor a.rss,
+.social-bar.default.multicolor a.rss,
+.wr-color-rss,
+.wr-color-hover-rss {
+	color: #ff9000;
+}
+.social-bar[class*="outline"].multicolor a.flickr,
+.social-bar.default.multicolor a.flickr,
+.wr-color-flickr,
+.wr-color-hover-flickr {
+	color: #ff0084;
+}
+.social-bar[class*="outline"].multicolor a.medium,
+.social-bar.default.multicolor a.medium,
+.wr-color-medium,
+.wr-color-hover-medium {
+	color: #58595B;
+}
+.social-bar[class*="outline"].multicolor a.slack,
+.social-bar.default.multicolor a.slack,
+.wr-color-slack,
+.wr-color-hover-slack {
+	color: #56B68B;
+}
+.social-bar[class*="outline"].multicolor a.yahoo,
+.social-bar.default.multicolor a.yahoo,
+.wr-color-yahoo,
+.wr-color-hover-yahoo {
+	color: #4C1AC3;
+}
+.social-bar[class*="outline"].multicolor a.vimeo,
+.social-bar.default.multicolor a.vimeo,
+.wr-color-vimeo,
+.wr-color-hover-vimeo {
+	color: #17B3E8;
+}
+.social-bar[class*="outline"].multicolor a.vk,
+.social-bar.default.multicolor a.vk,
+.wr-color-vk,
+.wr-color-hover-vk {
+	color: #507299;
+}
+.social-bar[class*="solid"].multicolor a.facebook,
+.wr-background-facebook {
+	background-color: #6078aa;
+}
+.social-bar[class*="solid"].multicolor a.twitter,
+.wr-background-twitter {
+	background-color: #00abf0;
+}
+.social-bar[class*="solid"].multicolor a.pinterest,
+.wr-background-pinterest {
+	background-color: #ce2020;
+}
+.social-bar[class*="solid"].multicolor a.google-plus,
+.wr-background-google-plus {
+	background-color: #d95232;
+}
+.social-bar[class*="solid"].multicolor a.linkedin,
+.wr-background-linkedin {
+	background-color: #0073b2;
+}
+.social-bar[class*="solid"].multicolor a.instagram,
+.wr-background-instagram {
+	background-color: #474135;
+}
+.social-bar[class*="solid"].multicolor a.skype,
+.wr-background-skype {
+	background-color: #03a8e9;
+}
+.social-bar[class*="solid"].multicolor a.pinterest {
+	background-color: #db2828;
+}
+.social-bar[class*="solid"].multicolor a.github {
+	background-color: #3d3d3d;
+}
+.social-bar[class*="solid"].multicolor a.foursquare {
+	background-color: #35c6ff;
+}
+.social-bar[class*="solid"].multicolor a.dribbble,
+.wr-background-dribbble {
+	background-color: #fa77b4;
+}
+.social-bar[class*="solid"].multicolor a.behance,
+.wr-background-behance {
+	background-color: #019BFF;
+}
+.social-bar[class*="solid"].multicolor a.tumblr,
+.wr-background-tumblr {
+	background-color: #2E5F83;
+}
+.social-bar[class*="solid"].multicolor a.youtube,
+.wr-background-youtube {
+	background-color: #db2828;
+}
+.social-bar[class*="solid"].multicolor a.rss,
+.wr-background-rss {
+	background-color: #ff9000;
+}
+.social-bar[class*="solid"].multicolor a.flickr,
+.wr-background-flickr {
+	background-color: #ff0084;
+}
+.social-bar[class*="solid"].multicolor a.medium,
+.wr-background-medium {
+	background-color: #58595B;
+}
+.social-bar[class*="solid"].multicolor a.slack,
+.wr-background-slack {
+	background-color: #56B68B;
+}
+.social-bar[class*="solid"].multicolor a.yahoo,
+.wr-background-yahoo {
+	background-color: #4C1AC3;
+}
+.social-bar[class*="solid"].multicolor a.vimeo,
+.wr-background-vimeo {
+	background-color: #17B3E8;
+}
+.social-bar[class*="solid"].multicolor a.vk,
+.wr-background-vk {
+	background-color: #507299;
+}

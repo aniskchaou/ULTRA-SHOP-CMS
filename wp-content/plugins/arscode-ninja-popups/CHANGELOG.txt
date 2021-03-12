@@ -1,0 +1,442 @@
+4.7.2
+- Minor bug fixes
+- Fix for AWeber API (ip address)
+- Fix Sendinblue errors when official Sendinblue plugin was installed
+4.7.1
+- Minor bug fixes
+4.7.0
+- Minor bug fixes
+- Added option to disable closing pop-up when ESC key is pressed
+- Added option to save subscribers data in CSV AND in choosen Mailing List Manager
+4.6.9
+- Minor bug fixes
+4.6.8
+- Minor bug fixes
+4.6.7
+- Minor bug fixes
+4.6.6
+- JS bug fix
+4.6.5
+- Fixed XSS vulnerability in popup builder
+- Minor bug fixes
+4.6.4
+- Added option to redirect user to new url after leaving viewport
+- Fixed integration with Sendy
+- Fixed WooCommerce support
+- GeoIP Welcome/Exit pop-up's now have option to display pop-up's based on country, city, zip code (city and zip code works only with ipstack.com)
+- Before user is subscribed to mailchimp, we are checking if e-mail exists in list that pop-up is connecte to. If it is
+then, error is returned
+- Fixed log gathering for mailing list managers that uses list id that is longer than 32 chars
+- Added option to display pop-up only in specific domains
+- Minor bug fixes
+4.6.3
+- Fixed file upload input
+- Fixed recaptcha errors in wp-admin
+- Fixed tagging mailchimp contacts
+- Added option to use https://intl-tel-input.com/
+- Added integration with ipstack.com
+- Added option to show/hide pop-up by city/zip code (works only with ipstack.com)
+- Added option to place page title and url on pop-up and send them to mailing list manager
+- Minor bug fixes
+4.6.2
+- Added option 'enablemobile' to shortcode in order to disable/enable pop-up's for mobile browsers
+- Added option 'mobile_id' to shortcode in order to use different pop-up's ID for on-click when using mobile browser
+- Added auto exclusion of minified js and css files from minification in autooptimize
+- Upgraded reCaptcha to v3
+- Fixed 'Unable to communicate back with site to check for fatal errors, so the PHP change was reverted' error on plugin/theme editor
+- Fixed Mautic integration
+- Fixed Direct Mail for OS X integration
+- Added option to turn off jquery ui theme
+- Added integration with Metrilo
+- Minor bug fixes in JavaScript
+4.6.1
+- Fixed view stats when using custom wp-admin url
+- Added new wordpress actions:
+-- ninja_popups_send_form_success - called after successfully sent data to mailing list manager
+-- ninja_popups_send_form_error - called after error occured while sending data to mailing list manager
+- Option to set tags for mailchimp
+- Fixed problem with mailing list manager set as e-mail that occured in some cases
+- New open option for exit pop-up and woocomerce: Pop-up will open only when user has items in carts and trys to leave page
+- Fixed problem with close button on preview
+- Updated Mautic API library
+- Fixed SSL issue with jquery ui theme
+4.6.0
+- Fixed sending e-mails with WPML e-mail plugin
+- Fixed problem with scrolling on mobile
+- Added option to set alt attribute on images
+- Added integration with ZOHO CRM
+- Added integration with Zapier Webhook
+- Log gathering is enabled by default
+- Added logging wp_mail calls - new option under ninja pop-up's menu
+- Updated animate styles
+- Closing pop-ups by escape key
+- Better compatibility with WooCommerce
+- Updated Mobile_Detect library
+- Fixed false-positive WordFence malware alert
+- Fixed problem with importing of library elements
+4.5.9
+- Added option to intercept data send to pop-up by using 'ninja_popups_send_form' action
+- Option to set Welcome & Exit pop-ups globally based on GeoIP (extended integration of https://wordpress.org/plugins/geoip-detect/ plugin)
+- Fixed spam detection method bug that occured in some cases
+- Option to change subject of e-mail notification
+4.5.8
+- Added information about browsers that supports custom text on exit alert dialog
+- Added additional spam protection method
+- Added option to add checkbox in ready themes
+- Added integration with Klayvio
+- Added integration with Moosend
+- Ready Theme "Image" - missing additional fields when using HTML-FORM mailing list manager
+- Minor bug fixes
+4.5.7
+- Option to open external links in iframe
+- Integration with 'GeoIP Detection' plugin (https://wordpress.org/plugins/geoip-detect/) - Option to show/hide pop-up based on country
+- Send opt-in form click action can send field from submitted step or fields from all steps
+- Fixed problem with closing pop-ups in some cases
+- Filters - Now subscribing user to your mailing list manager can be called from any place in wordpress thanks to filters
+- SalesManago - Option to choose between opt-out or opt-in
+- Integration with SharpSpring
+- Fixed problem with material form input and font-awesome icons
+- Fixed iOS 11 bug with input fields
+- Theme builder: Deletion of first step does not break pop-up anymore
+- Minor bug fixes
+4.5.6
+- Ninja Pop-up addon that adds shortcodes for login and register form
+- Option to use different label for select options
+- Option to validate e-mails with thechecker.co services
+- Option to set API KEY for google maps
+- Option to add tags to aweber subscribers
+- Fixed showing/hiding pop-up by referer
+- Option to use PHP REGEXP in "Show pop-up by referer" and "Hide pop-up by referer"
+4.5.5
+- Option to set different pop-up for welcome/exit on mobile and desktop
+- "Advanced Settings" - Option to set "WP-AJAX" ping time for "When user spends X seconds on page" pop-up open method
+- Errors returned by API calls does not close pop-up. Instead notification alert is shown
+- Validation errors are shown on pop-up as tooltip
+- Updated youtube video player
+- Fixed opening pop-up based on time spend on site during session
+- Fixed madmimi lists fetch bug
+- Minor bug fixes
+4.5.4
+- Security fixes
+4.5.3
+- Option to use 'POST' or 'GET' method for sending form data
+- Option to set hour range when pop-up should show
+- Option to track users with drip JavaScript API
+- Fixed problem with re-opening ready themes pop-up after close
+- Option to use custom hook instead of wp_footer. Just place where you want <?php do_action('snp_run_footer'); ?>
+- E-mail notifications about subscription has reply-to header set for e-mail filled out by user
+- Theme builder: Option to use external forms shortcodes in pop-up (for example formidable or contact form 7)
+- Minor bug fixes
+4.5.2
+- APSIS.com integration
+- Drip.co integration
+- Option to open pop-up based on time spend on site during session
+- New option of triggering exit intent pop-ups
+- Theme builder: Option to add upload file field
+- Ready themes: Option to add upload file field
+- Theme builder: MailChimp groups integration
+- Theme builder: Option to add checkbox element
+- Theme builder: Option to add radio element
+- Option to play sound on pop-up open
+- Only one pop-up at a time will be displayed
+- When mouse leaves the browser viewport (Exit Intent) - now shows only when mouse hovers top of the browser
+- Sendinblue bug fix
+- Minor bug fixes
+4.5.1
+- Option to show pop-up based on referer
+- Option to hide pop-up based on referer
+- Option to display pop-up only to logged in users
+- Theme Builder: hidden input
+- Theme Builder: calendar input
+- Ready themes: calendar input
+- Close pop-up on scroll
+- JavaScript Hooks
+- Minor bug fixes
+4.5.0
+- PHP7 support
+- Captcha field (using ReCaptcha V2)
+- Option to add validation message that is displayed to user
+- Option to change url of script that handles AJAX request (opt-in, conversion, view stats)
+- Option to set WebHook URL to script that handles before opt-in request
+- Option to set WebHook URL to script that handles after opt-in request
+- Minor bug fixes
+4.4.9
+- MailPoet version 3 integation
+- SendGrid bug fix
+- Minor bug fixes
+4.4.8
+- eCampaigner integration (API integration and for lower plans CSV integration)
+- SG Autorepondeur integration
+- Kirim.email integration
+- Mautic integration
+- Option to set tabindex on input, select, textarea, button elements
+- Option to set conversion cookie on redirect
+- Option to use non minified ninjapopup.js script
+- Option to use shortcode in 'custom html' theme builder element
+- Fixed date format in datepicker for start and end date
+- Minor bug fixes
+4.4.7
+- Theme Builder: Option to open link based on selected value in one of the select boxes
+- Theme Builder: Option to add custom html
+- WPMU DEV eNewsletter integration
+- Minor bug fixes
+4.4.6
+- Option to open link in new window
+- Fixed issue with preg_callback
+4.4.5
+- Mailster integration
+- Hubspot integration
+- Convertkit integration
+- Jetpack integration
+- Newsletter integration fix
+- MailerLite bug fix
+- Minor bug fixes
+4.4.1:
+- Sendgrid api v3.0 fix,
+4.4.0:
+- Sendgrid api v3.0 integration,
+- minor bug fixed,
+4.3.9: 
+- minor bug fixed,
+4.3.8:
+- fix for Map element,
+4.3.7:
+- fix for old PHP versions,
+4.3.6:
+- fix for old PHP versions,
+4.3.5:
+- Different cookies for each popups added,
+- Sendlane support,
+- minor bug fixed,
+4.3.4:
+- E-goi fix,
+4.3.3:
+- Builder: added Map element,
+- minor bug fixed,
+4.3.2:
+- E-goi fix,
+- E-goi double opt-in support,
+- Minor bugs fixed,
+- Customer.io support,
+- Link on Theme Image added,
+- MailChimp field selector added,
+- MailerLite Bug fix,
+- Builder: added Youtube element,
+- Subscribe2 support,
+4.3.1:
+- MailRelay Support,
+4.3.0:
+- Mailchimp Bug fix,
+- MailUp Support,
+4.2.9:
+- Subscription Log added,
+- Custom Fields names fixed,
+4.2.8:
+- exclude urls from exit popup by css class (noexitpopup),
+4.2.7:
+- ActiveCampaign double opt-in Support,
+- Fix for AWeber API (ip address),
+- Fix for ActiveCampaign API,
+4.2.6:
+- Sendreach Support,
+- Newsletter Support,
+- Ontraport Support,
+- Minor bugs fixed,
+4.2.5:
+- Minor bugs fixed,
+- MailChimp API Fixes,
+4.2.4:
+- SalesManago Support,
+- SendPulse Support,
+4.2.3:
+- MailJet Support,
+- Minor bugs fixed,
+4.2.2:
+- Fixes for Widget Add-on,
+- Minor bugs fixed,
+- SendGrid Support,
+- BenchmarkEmail Support,
+- Added Cookie Prefix in Advanced Settings,
+4.2.1:
+- AgileCRM Support,
+4.2:
+- MyEmma Support,
+- SalesAutopilot Support,
+- ElasticEmail Support,
+4.1.5:
+- Drag&Drop Builder: added pointlist,
+- Drag&Drop Builder: aspect radio in image element,
+- Fixes in Preview,
+- MailerLite Support,
+4.1.1:
+- RocketResponder Support,
+- fixed problem with 4.1 and Bars Add-on,
+- fixed problem with popup import (WXR_Parser_SimpleXML),
+4.1:
+- fixes in Drag&Drop Builder,
+- fixes in Popup Library,
+- fix for cookie path,
+4.0:
+- Drag&Drop Builder,
+- Popups Library,
+- ActiveCampaign Support,
+- FreshMail Support,
+- SendInBlue Support,
+- Minor bugs fixed,
+- Infusionsoft API fix,
+- Performance fix,
+- Referer url in mail footer,
+3.9:
+- minor bugs fixes,
+- Infusionsoft API fix,
+3.8.2:
+- Fix in Constant Contact integration, 
+3.8.1:
+- Improved WPML Support,
+3.8:
+- e-goi support,
+- better compatibility with CloudFlare,
+3.7:
+- JS Performance fix,
+- PHP fixes
+3.6.4:
+- minor bug fixed,
+3.6.3:
+- Fix in Auto Updates,
+3.6.2:
+- PHP bug fixed,
+3.6:
+- Auto Updates,
+- SendPress Support,
+- Select Popups by Taxonomies,
+- MyMail: double/single optin setting,
+- Added New Theme 8,
+- PNGs optimalization,
+- Performance updates,
+- Minor bugs fixed,
+3.5:
+- MyMail 2.0 Support,
+- better Custom Fields validation,
+- minor bugs fixed,
+3.4:
+- statistics reset link,
+- setting Popups by Categories,
+- better WooCommerce support,
+- MailChimp: send welcome message setting,
+- Constant Contact: send welcome message setting,
+3.3.1:
+- fix in Analytics,
+3.3:
+- Google Analytics Event Tracking,
+- Open Popup on Scroll,
+- Open Popup after X sec of User Inactivity,
+- JS and CSS fixes and optimization,
+- fixes in A/B testing,
+- Cloning popups feature,
+- One button mode in New Theme 6 and 7,
+3.2.3:
+- fix for Sendy API,
+3.2.2:
+- hidden field fix,
+3.2:
+- 2 New Themes,
+- sendy.co API Support,
+- hidden type in custom fields,
+- added GET/POST/COOKIE variable to prevent loading popup (http://domain/page?nphide=1)
+- selftest warning (check curl, safe mode, wp version),
+- FB locale settings,
+- css fixes in themes,
+3.1.1:
+- css fixes in themes,
+3.1:
+- A/B Testing,
+- Analytics,
+- Improving performance (JS, CSS),
+- Double/Single Optin option for MailChimp,
+3.0.3:
+- fix for Constant Contact API,
+3.0.2:
+- fix in sidebar scrolling,
+3.0.1:
+- fixes in new themes,
+3.0:
+- 5 New Themes,
+- MadMimi support,
+- Infusionsoft support,
+- Custom Fields support,
+- Exit Intent, 
+- Success message after submit,
+- Fixed many small bugs,
+2.5:
+- fix dor new mailchimp api,
+2.4:
+- new mailchimp api,
+2.3:
+- fix for exit popup with long alert text,
+2.2:
+- fix for files paths,
+- better HTML Forms support,
+- directmail support,
+2.1:
+- fixes in responsive layouts,
+- option for open popup by link in menu,
+2.0:
+- support for themes pack,
+- general fixes,
+- fixes in responsive layouts,
+1.9:
+- responsive,
+1.8:
+- added: disabled welcome/exit popup for logged users,
+- added: exit popup for external links in menu, sidebars, footer etc.
+- fixed minor bugs,
+1.7.1:
+- fix for campaing monitor,
+1.7:
+- added button for shortcodes,
+- fix for last/first name in opt-ins,
+1.6.2:
+- Loading text on submit button,
+- renamed jquery.cookie.js to jquery.ck.js,
+- general fixes,
+1.6.1:
+- new media uploader,
+1.6:
+- new themes,
+- general fixes,
+1.5.2:
+- disable close timer after start typing name or email,
+1.5.1:
+- new fancybox 2.1.4,
+1.5:
+- option for disable plugin column in posts/pages list,
+- fixed minor bugs,
+1.4.1:
+- MyMail support,
+1.4:
+- wysija support,
+- fixed minor bugs,
+- fixed conflict with fancybox 1.3.4,
+1.3.1:
+- fixed options for disable fancybox js loading,
+- fixed css reset for twenty twelve theme,
+1.3:
+- AWeber support,
+- fixed conflict with themes based on nhp framework,
+- fixed problem with shortcode and content builder plugins,
+- added autoopen param to shortcode,
+- fix for links with singles quotes,
+- better catching when user is leaving website  in exit popups,
+1.2:
+- fixed bugs in JS,
+- fixed bugs in CSS,
+- fix for windows server,
+- updated fancybox to  2.1.3,
+- added Google Maps Popup,
+- fixed bug in preview,
+1.1:
+- fixed placeholder in IE,
+- added shortcode for open popup by link in content,
+- added "Redirect after opt-in",
+- added column Ninja Popups in posts/pages list,
+- added cookie settings

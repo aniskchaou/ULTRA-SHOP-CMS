@@ -1,0 +1,118 @@
+/*	[ Product countdown ]
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+.product__countdown {
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 220px;
+	z-index: 1;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	div div {
+		width: 25%;
+		padding: 10px 0;
+	}
+	div span:first-child {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	div span:last-child {
+		font-size: 10px;
+		line-height: 16px;
+	}
+	.pr:not(:last-child):after {
+		content: '';
+		position: absolute;
+		background: #e6e8ed;
+		width: 1px;
+		height: 36px;
+		right: 0;
+		top: 10px;
+	}
+}
+.vertical--right .product__countdown {
+	right: 80px;
+}
+.vertical--left .product__countdown {
+	left: 80px;
+}
+.product-btn-left .product__countdown,
+.product-btn-inside .product__countdown,
+.product-btn-outside .product__countdown {
+	left: 10px;
+	right: auto;
+	width: 46px;
+	background: none;
+	box-shadow: none;
+}
+.product-btn-inside .product__countdown {
+	top: 10px;
+}
+.product-btn-left .product__countdown {
+	@include translateY(50%);
+	bottom: 50%;
+}
+.product-btn-left .product__countdown div div,
+.product-btn-inside .product__countdown div div,
+.product-btn-outside .product__countdown div div,
+.single-product .style-3 .p-single-images .product__countdown div div {
+	width: 100%;
+	margin-top: 2px;
+	background: #fff;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	padding: 5px 0;
+}
+.product-btn-left .product__countdown .pr:not(:last-child):after,
+.product-btn-inside .product__countdown .pr:not(:last-child):after,
+.product-btn-outside .product__countdown .pr:not(:last-child):after,
+.sale_countdown .product-btn-inside .product__action {
+	@extend %display-none;
+}
+.product-btn-inside .product__countdown,
+.product-btn-left .product__countdown,
+.product-btn-outside .product__countdown {
+	left: auto;
+	z-index: 10;
+	right: 10px;
+}
+.product-btn-outside .product__countdown {
+	bottom: auto;
+	top: 10px;
+}
+.product-btn-left .product__countdown div span:first-child,
+.product-btn-inside .product__countdown div span:first-child,
+.product-btn-outside .product__countdown div span:first-child {
+	font-size: 14px;
+}
+.product-btn-left .product__countdown div span:last-child,
+.product-btn-inside .product__countdown div span:last-child,
+.product-btn-outside .product__countdown div span:last-child {
+	font-size: 8px;
+}
+.product-preview .product__countdown {
+	z-index: 99;
+}
+.style-3 {
+	.product__countdown {
+		right: 20px;
+		top: 20px;
+		left: auto;
+		width: 55px;
+		box-shadow: none;
+		z-index: 10;
+		> div {
+			@extend %fcc;
+		}
+		div div {
+			margin-bottom: -1px;
+		}
+		.pr:after {
+			@extend %display-none;
+		}
+	}
+	.product__badge + .woocommerce-product-gallery {
+		.product__countdown {
+			top: 40px;
+		}
+	}
+}

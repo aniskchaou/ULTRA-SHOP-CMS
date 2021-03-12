@@ -1,0 +1,42 @@
+/*	[ Masonry Layout ]
+- - - - - - - - - - - - - - - - - - - - */
+.wr-masonry-wrap {
+	.item {
+		overflow: hidden;
+	}
+	.item > div,
+	.item .item-inner,
+	.element-blog,
+	.element-blog > article {
+		height: 100%;
+		overflow: hidden;
+	}
+	.element-blog > article .entry-content {
+		bottom: 0;
+		width: 100%;
+		left: 0;
+		padding: 0 20px;
+		background: transparent;
+		background: -webkit-gradient(left top, left bottom, color-stop(0%, transparent), color-stop(100%, black));
+		background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
+		background: -webkit-linear-gradient(top, transparent 0%, black 100%);
+		background: linear-gradient(to bottom, transparent 0%, black 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+	}
+	.element-blog > article .entry-content a {
+		color: #fff;
+	}
+}
+.vc_row .wr-masonry-wrap {
+	.sc-gallery,
+	.sc-gallery .galleries > .row {
+		padding: 0;
+		margin: 0;
+	}
+}
+.vc_row .wr-masonry-wrap .sc-gallery .hentry,
+.wr-masonry-wrap .element-blog .hentry,
+.wr-masonry-wrap .nitro-member img,
+.wr-masonry-wrap .image-banner img.front {
+	width: 100% !important;
+}

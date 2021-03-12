@@ -1,0 +1,151 @@
+.snp-newtheme8 {
+    width: 800px;
+    position: relative;
+    background-color: #1ea2ed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+
+.snp-newtheme8 .snp-newsletter-content {
+    overflow: hidden;
+    position: relative;
+}
+.snp-newtheme8 .snp-newsletter-content header {
+    overflow: hidden;
+    text-align: left;
+}
+.snp-newtheme8 .snp-newsletter-content header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 40px;
+    text-align: center;
+    letter-spacing: 0;
+}
+.snp-newtheme8 .snp-newsletter-content header h3 {
+    font-size: 16px;
+    margin: 25px 40px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+.snp-newtheme8 .snp-banner1 {
+
+}
+
+.snp-newtheme8 .snp-banner2 {
+    margin: 25px 40px;
+}
+
+.snp-newtheme8 .snp-subscribeform {
+    margin: 10px 40px 0px 40px;
+    text-align: center;
+}
+
+.snp-newtheme8 form input[type="text"],
+.snp-newtheme8 form select,
+.snp-newtheme8 form textarea{
+    width: 100%;
+    max-width: 475px;
+    padding: 10px;
+    display: initial;
+    border: 2px solid #0f7dbb;
+    font-family: Arial, sans-serif;
+    background: transparent;
+    color: #666666;
+    background-color: #fff;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.snp-newtheme8 form input[type="submit"] {
+    width: 100%;
+    max-width: 330px;
+    background: #ffd303;
+    color: #0969a0;
+    font-weight: 800;
+    text-align: center;
+    font-size: 15px;
+    padding: 12px 25px;
+    border: 0;
+    display: initial;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.snp-newtheme8 .snp-half { 
+    width: 50%;
+    float: left;
+}
+
+.snp-newtheme8 .snp-half .snp-field { 
+    max-width: 330px;
+}
+
+.snp-newtheme8 .snp-image {
+    text-align: center;
+    overflow: hidden;
+}
+
+.snp-newtheme8 .snp-image IMG {
+    max-width: 100%;
+}
+
+.snp-newtheme8 .snp-security-note {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
+.snp-newtheme8 .snp-security-note small{
+    padding-left: 20px;
+    background: url('../img/lock.png') no-repeat scroll 0 0 transparent;
+    font-size: 11px;
+    display: inline-block;
+    line-height: 18px;
+}
+
+@media (max-width: 840px) {
+    .snp-newtheme8 {
+        max-width: 580px;
+    }
+    .snp-newtheme8 .snp-newsletter-content header h2 {
+        margin-top: 40px;
+    }
+    .snp-newtheme8 .snp-newsletter-content .snp-field {
+        max-width: 400px;
+    }
+    .snp-newtheme8 .snp-left {
+        width: 30%;
+        position: relative;
+        left: -15px;
+    }
+    .snp-newtheme8 .snp-right {
+        width: 70%;
+        text-align: right;
+    }
+    .snp-newtheme8 form input[type="submit"] {
+        width: auto;
+        padding: 24px 44px;
+    }
+
+    .snp-newtheme8 .snp-newsletter-content h3,
+    .snp-newtheme8 .snp-banner1,
+    .snp-newtheme8 .snp-banner2
+    {
+        display: none; 
+    }
+}
+
+@media (max-width: 620px) {
+    .snp-newtheme8 {
+        max-width: 100%;
+    }
+    .snp-newtheme8 .snp-right {
+        width: auto;
+        text-align: center;
+    }
+    .snp-newtheme8 .snp-left {
+        display: none;
+    }
+}

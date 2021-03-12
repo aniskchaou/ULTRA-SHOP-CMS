@@ -1,0 +1,60 @@
+// Helpers and variables and mixins
+@import "helpers/variables";
+@import "helpers/mixins";
+
+// Components
+@import "components/reset";
+@import "components/custom_fonts";
+@import "components/rtl";
+@import "components/popup";
+@import "components/gallery";
+@import "components/lightbox";
+@import "components/widgets";
+@import "components/general";
+
+// Layout
+@import "layout/general";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/flexbox";
+
+// Pages
+@import "pages/general";
+@import "pages/blog_list";
+@import "pages/blog_detail";
+@import "pages/offline";
+@import "helpers/helpers";
+
+// Shortcodes
+@import "shortcodes/general";
+@import "shortcodes/carousel";
+@import "shortcodes/add_to_cart";
+@import "shortcodes/image_effects";
+@import "shortcodes/blog_posts";
+@import "shortcodes/heading";
+@import "shortcodes/icon_box";
+@import "shortcodes/image_gallery";
+@import "shortcodes/quote";
+@import "shortcodes/list";
+@import "shortcodes/masonry";
+@import "shortcodes/member";
+@import "shortcodes/pricing_table";
+@import "shortcodes/separator";
+@import "shortcodes/social";
+@import "shortcodes/social_network";
+@import "shortcodes/tabs";
+@import "shortcodes/toggles";
+@import "shortcodes/testimonial";
+@import "shortcodes/video";
+@import "shortcodes/counter";
+@import "shortcodes/product_categories";
+@import "shortcodes/product_menu";
+@import "shortcodes/product_package";
+@import "shortcodes/timeline";
+
+// Extended class
+@import "helpers/extended";
+
+// Responsive
+@import "components/responsive";

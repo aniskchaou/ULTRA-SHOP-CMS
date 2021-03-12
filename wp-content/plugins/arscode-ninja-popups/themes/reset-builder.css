@@ -1,0 +1,49 @@
+.snp-builder, .snp-builder * {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-transform: none;
+    background-image: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-spacing: 0;
+}
+.snp-builder abbr, .snp-builder address, .snp-builder article, .snp-builder aside, .snp-builder audio, .snp-builder b, .snp-builder blockquote, .snp-builder body, .snp-builder canvas, .snp-builder caption, .snp-builder cite, .snp-builder code, .snp-builder dd, .snp-builder del, .snp-builder details, .snp-builder 
+dfn, .snp-builder div, .snp-builder dl, .snp-builder dt, .snp-builder em, .snp-builder fieldset, .snp-builder figcaption, .snp-builder figure, .snp-builder footer, .snp-builder form, .snp-builder h1, .snp-builder h2, .snp-builder h3, .snp-builder h4, .snp-builder h5, .snp-builder h6, .snp-builder header, .snp-builder hgroup, .snp-builder 
+html, .snp-builder i, .snp-builder iframe, .snp-builder img, .snp-builder ins, .snp-builder kbd, .snp-builder label, .snp-builder legend, .snp-builder li, .snp-builder mark, .snp-builder menu, .snp-builder nav, .snp-builder object, .snp-builder ol, .snp-builder p, .snp-builder pre, .snp-builder q, .snp-builder samp, .snp-builder section, .snp-builder 
+small, .snp-builder span, .snp-builder strong, .snp-builder summary, .snp-builder table, .snp-builder tbody, .snp-builder td, .snp-builder tfoot, .snp-builder th, .snp-builder thead, .snp-builder time, .snp-builder tr, .snp-builder ul, .snp-builder var, .snp-builder video { 
+  margin: 0; 
+  padding: 0;  
+}
+.snp-builder textarea {
+    resize: none;
+}
+.snp-builder button:after {
+    display: none;
+}
+.snp-builder button:hover {
+    opacity: 0.8;    
+    transition: all 0.3s ease 0s;
+}
+.snp-builder ul.bld-el > li {
+    list-style-type: none;
+    background-image: url('../img/dot.png');
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+    padding-left: 15px; 
+}
+.mbYTP_wrapper iframe {max-width: none;}
+
+.snp_clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
+}
+.tooltipster-base {
+	z-index: 99999999 !important;
+}

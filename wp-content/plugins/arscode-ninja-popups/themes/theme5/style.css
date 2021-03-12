@@ -1,0 +1,245 @@
+.snp-theme5 ::-webkit-input-placeholder {   color: #AFAFAF;}
+.snp-theme5 input:-moz-placeholder {   color: #AFAFAF;}
+.snp-theme5 .snp-placeholder {   color: #AFAFAF;}
+
+.snp-theme5 .snp-error::-webkit-input-placeholder { color: #CC0000; }
+.snp-theme5 input.snp-error:-moz-placeholder { color: #515151; }
+.snp-theme5 .snp-error.placeholder { color: #515151; }
+
+.snp-theme5 .snp-share {
+	display: inline-block;
+	padding: 0 5px;
+	vertical-align: top;
+}
+
+.snp-theme5 .snp-share-gp {
+	width: 69px;	
+}
+
+.snp-theme5 .snp-share-gp div {
+	display: block !important;
+}
+
+
+.snp-theme5 .snp-share-tw {
+	width: 90px;
+}
+
+.snp-theme5 .snp-share-pi img {
+	vertical-align: top;
+}
+
+.snp-theme5 .snp-field {
+  min-width: 212px;
+  margin-right: 10px;
+  float: left;
+  border: 0;
+  background: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  line-height: 15px;
+  height: 31px;
+  padding: 8px 14px 8px 46px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+.snp-theme5 .snp-field-name {
+  background: #fff url(gfx/input-name.png) no-repeat 0 50%;
+}
+
+.snp-theme5 .snp-field-email {
+  background: #fff url(gfx/input-email.png) no-repeat 0 50%;
+}
+
+
+.snp-theme5 .snp-error {
+	color: #CC0000 !important;
+	border: 1px solid #CC0000 !important;
+}
+
+.snp-theme5 .snp-subscribe fieldset
+{
+	display: inline-block;
+}
+
+.snp-theme5 .snp-subscribe-button {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #345c9f;
+  background-image: -webkit-linear-gradient(top, #345c9f 0, #182945 100%);
+  background-image: -moz-linear-gradient(top, #345c9f 0, #182945 100%);
+  background-image: -ms-linear-gradient(top, #345c9f 0, #182945 100%);
+  background-image: -o-linear-gradient(top, #345c9f 0, #182945 100%);
+  background-image: linear-gradient(top, #345c9f 0, #182945 100%);
+  text-align: center;
+  color:#fff;
+  font-size:14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 31px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-shadow: 1px 1px #596e18;
+}
+
+.snp-theme5 .snp-subscribe-button:active {
+  position: relative;
+  top: 2px;
+}
+.snp-theme5 {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  color:#fff;
+  padding: 70px 35px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.snp-theme5 .snp-footer {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  left: 0;
+  padding: 0 30px;
+}
+
+.snp-theme5 .snp-footer,
+.snp-theme5 .snp-footer p {
+  color: #979797;
+  margin-bottom: 0;
+  font-size: 11px;
+}
+
+.snp-theme5 .snp-footer a {
+  text-decoration: underline;
+}
+
+
+.snp-theme5 .snp-footer .snp-privacy:before{
+  content: url(gfx/locker.png);
+  margin-right: 10px;
+  position: relative;
+  top:2px;
+  vertical-align: middle;
+  display: inline;
+}
+
+.snp-theme5 .snp-footer .snp-privacy span {
+  vertical-align:middle;
+}
+
+
+
+.snp-theme5 h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Arial Black", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.snp-theme5 h1, 
+.snp-theme5 .snp-text {
+  text-shadow: rgba(0,0,0,0.45) 0 0 5px;
+}
+
+.snp-theme5 .snp-text {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.snp-theme5 .snp-header-icon {
+  margin-right: 25px;
+  position: relative;
+  top: -3px;
+}
+
+.snp-theme5 .snp-subscribe {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background: rgba(0,0,0,0.45);
+  padding: 10px;
+  text-align: center;
+}
+
+.snp-theme5 .snp-subscribe-social {
+	padding-top: 14px;
+}
+
+.snp-theme5 .snp-subscribe-button {
+  /*width: 136px;*/
+  padding: 0 15px;
+  float: left;
+}
+
+.snp-theme5 .snp-footer {
+  text-align: center;
+}
+
+.snp-theme5 .snp-footer .snp-privacy {
+  margin-bottom: 3px;
+}
+
+.snp-theme5 {
+  background: #182945;
+  background-image: -moz-radial-gradient(50% 50%, circle contain, #345c9f, #182945 120%);
+  background-image: -webkit-radial-gradient(50% 50%, circle contain, #345c9f, #182945 120%);
+  background-image: -o-radial-gradient(50% 50%, circle contain, #345c9f, #182945 120%);
+  background-image: -ms-radial-gradient(50% 50%, circle contain, #345c9f, #182945 120%);
+  background-image: radial-gradient(50% 50%, circle contain, #345c9f, #182945 120%);
+}
+
+
+.snp-theme5 .snp-powered {
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: -36px;
+  height: 46px;
+  padding: 10px 35px 0;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 36px;
+  background: #182945;
+  color: #fff;
+}
+
+
+
+@media only screen and (max-width: 640px) {
+    .snp-theme5 {
+	width: auto !important;
+	max-width: 100%;
+	padding: 35px 17px 0;
+    }
+    .snp-theme5 .snp-field, .snp-theme5 .snp-subscribe-button{
+	width: 100% !important;
+	max-width: 100%;
+	min-width: 0;
+    }
+    .snp-theme5 .snp-field {
+	margin-bottom: 10px;
+    }
+    .snp-theme5 h1 {
+	font-size: 25px !important;
+    }
+    .snp-theme5 .snp-text {
+	font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .snp-theme5 {
+	padding: 15px 7px 0;
+    }
+}

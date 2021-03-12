@@ -1,0 +1,35 @@
+/**
+ * @version    1.0
+ * @package    WR_Live_Search
+ * @author     WooRockets Team <support@woorockets.com>
+ * @copyright  Copyright (C) 2014 WooRockets.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.woorockets.com
+ */
+
+.show-button {
+	display: none;
+}
+.show{
+	display: table-row;
+}
+.update-nag {
+	line-height: 1.7;
+}
+.search-in-item {
+    margin: 4px 0;
+}
+.search-in-item.disable {
+	position:relative;
+	color: #B9B9B9;
+}
+.search-in-item.disable:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

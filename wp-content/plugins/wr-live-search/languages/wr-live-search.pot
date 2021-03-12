@@ -1,0 +1,217 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-16 11:41+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WooRockets <support@woorockets.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: includes/core.php:165
+msgid "Nonce verification failed."
+msgstr ""
+
+#: includes/core.php:170
+msgid "Missing data."
+msgstr ""
+
+#: includes/core.php:292
+msgid "No results."
+msgstr ""
+
+#: includes/settings.php:37
+msgid "Placeholder"
+msgstr ""
+
+#: includes/settings.php:41
+msgid "Show button"
+msgstr ""
+
+#: includes/settings.php:46
+msgid "Text button"
+msgstr ""
+
+#: includes/settings.php:50
+msgid "Show category list"
+msgstr ""
+
+#: includes/settings.php:54
+msgid "Show suggestion"
+msgstr ""
+
+#: includes/settings.php:58
+msgid "Minimum number of characters"
+msgstr ""
+
+#: includes/settings.php:62
+msgid "Maximum number of results"
+msgstr ""
+
+#: includes/settings.php:66
+msgid "Search in"
+msgstr ""
+
+#: includes/settings.php:70
+msgid "Class"
+msgstr ""
+
+#: includes/settings.php:74
+msgid "ID"
+msgstr ""
+
+#: includes/settings.php:118
+msgid "Search product..."
+msgstr ""
+
+#: includes/settings.php:120
+msgid "Search"
+msgstr ""
+
+#: includes/settings.php:198
+msgid "Enter your search term suggestion here."
+msgstr ""
+
+#: includes/settings.php:211 includes/settings.php:240 
+#: includes/settings.php:299 includes/widget.php:88 includes/widget.php:103 
+#: includes/widget.php:111
+msgid "Yes"
+msgstr ""
+
+#: includes/settings.php:213
+msgid "Enable this to display the search button."
+msgstr ""
+
+#: includes/settings.php:227
+msgid "Enter your keyword for search button."
+msgstr ""
+
+#: includes/settings.php:242
+msgid "Enable this to show drop-down category list."
+msgstr ""
+
+#: includes/settings.php:256
+msgid "Enter your minimum number of characters for each search term."
+msgstr ""
+
+#: includes/settings.php:270
+msgid "Enter your maximum number of search results for each search term."
+msgstr ""
+
+#: includes/settings.php:282 includes/widget.php:119
+msgid "Title"
+msgstr ""
+
+#: includes/settings.php:283 includes/widget.php:123
+msgid "Description"
+msgstr ""
+
+#: includes/settings.php:284 includes/widget.php:127
+msgid "Content"
+msgstr ""
+
+#: includes/settings.php:285
+msgid ""
+"Tick or un-tick each square box to enable or disable search terms scanning "
+"on \"Title\", \"Description\", or \"Content\" blocks."
+msgstr ""
+
+#: includes/settings.php:301
+msgid "Enable this to display search term suggestion."
+msgstr ""
+
+#: includes/settings.php:343
+msgid "Open Live Search Settings"
+msgstr ""
+
+#: includes/settings.php:343
+msgid "Settings"
+msgstr ""
+
+#: includes/shortcode.php:27 templates/settings.php:19
+msgid "This plugin requires the following plugin: <strong>WooCommerce</strong>"
+msgstr ""
+
+#: includes/shortcode.php:85
+msgid "All categories"
+msgstr ""
+
+#: includes/widget.php:27
+msgid "A live search box that shows results instantly."
+msgstr ""
+
+#. Name of the plugin
+#: includes/widget.php:30
+msgid "WR Live Search"
+msgstr ""
+
+#: includes/widget.php:72
+msgid "Title:"
+msgstr ""
+
+#: includes/widget.php:79
+msgid "Placeholder:"
+msgstr ""
+
+#: includes/widget.php:80
+msgid "Search product"
+msgstr ""
+
+#: includes/widget.php:85
+msgid "Show button:"
+msgstr ""
+
+#: includes/widget.php:94
+msgid "Button text:"
+msgstr ""
+
+#: includes/widget.php:100
+msgid "Show category list:"
+msgstr ""
+
+#: includes/widget.php:108
+msgid "Show suggestion:"
+msgstr ""
+
+#: includes/widget.php:116
+msgid "Search in:"
+msgstr ""
+
+#: includes/widget.php:133
+msgid "Minimum number of characters:"
+msgstr ""
+
+#: includes/widget.php:140
+msgid "Maximum number of results:"
+msgstr ""
+
+#: includes/widget.php:147
+msgid "Class:"
+msgstr ""
+
+#: includes/widget.php:154
+msgid "ID:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WR Live Search is a WordPress plugin developed by WooRockets. It help you "
+"create a search box that will display search results instantly with rich "
+"content like thumbnail images, prices, title, description... You can also "
+"choose to search from WooCommerce products or blog content."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.woorockets.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "WooRockets <admin@woorockets.com>"
+msgstr ""

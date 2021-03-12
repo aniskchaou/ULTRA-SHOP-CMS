@@ -1,0 +1,127 @@
+.snp-theme7 {
+  background: #fff url(gfx/bg.png);
+  font: 12px/1.5 Arial, Helvetica, sans-serif;
+  color: #7b7d7f;
+  position: relative;
+  border: 1px solid #dcdcdc;
+  /*border-radius: 3px;*/
+  max-width: 500px;
+}
+
+.snp-theme7 .snp-inner {
+  background: url(gfx/bg2.png) repeat-x 0 0;
+}
+
+.snp-theme7 .snp-inner2 {
+  background: url(gfx/bg2.png) repeat-x 0 100%;
+  padding: 45px 20px 25px 20px;
+}
+
+.snp-theme7 .snp-info {
+  font-size: 12px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.snp-theme7 .snp-form {
+}
+
+.snp-theme7 .snp-close {
+   margin-top: 20px; 
+   font-size: 12px/1.5;
+}
+
+.snp-theme7 .snp-field {
+  margin-right: 97px;
+}
+
+.snp-theme7 .snp-field input {
+  display: block;
+  width: 100%;
+  height: 33px;
+
+  border: 1px solid #e3e3e3;
+  border-right: 0;
+
+  /*-webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;*/
+
+
+  font: 11px/15px Arial, Helvetica, sans-serif;
+  padding: 8px 10px;
+}
+
+
+.snp-theme7 .snp-field ::-webkit-input-placeholder {
+  color: #a0a4a9;
+}
+
+.snp-theme7 .snp-field :-moz-placeholder {
+  color: #a0a4a9;
+}
+
+.snp-theme7 .snp-field :-ms-input-placeholder {
+  color: #a0a4a9;
+}
+
+.snp-theme7 .snp-submit { 
+  padding: 0 15px;
+  margin: 0;
+  border: 0;
+
+  float: right; 
+  min-width: 97px;
+  margin-top: -33px;
+  background: #0d7bd6;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+
+ /* -webkit-border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -moz-border-radius-bottomright: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;*/
+}
+
+.snp-theme7 .snp-submit:active {
+  position: relative;
+ /* top: 2px;*/
+}
+
+.snp-theme7 .snp-header {
+  margin-bottom: 15px;
+}
+
+.snp-theme7 .snp-header span {
+  display: block;
+  color: #0d7bd6;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.snp-theme7 .snp-header h1 { 
+  color: #979ea3;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.snp-theme7 .snp-error {
+	color: #CC0000 !important;
+	border: 1px solid #CC0000 !important;
+}
+.snp-theme7 .snp-error::-webkit-input-placeholder { color: #CC0000; }
+.snp-theme7 input.snp-error:-moz-placeholder { color: #515151; }
+.snp-theme7 .snp-error.placeholder { color: #515151; }
+

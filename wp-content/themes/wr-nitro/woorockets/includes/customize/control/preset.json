@@ -1,0 +1,227 @@
+{
+	"profile-1": {
+		"title": "Light",
+		"data": {
+			"custom_color": "#ff4064",
+			"content_body_color": {
+				"body_text": "#646464",
+				"heading_text": "#323232"
+			},
+			"general_line_color": "#ebebeb",
+			"content_loader_color": {
+				"icon": "#ffffff",
+				"bg": "rgba(0, 0, 0, 0.7)"
+			},
+			"content_meta_color": "#ababab",
+			"wr_general_container_color": "#ffffff",
+			"wr_layout_offset_color": "#ffffff",
+			"wr_page_body_bg_color": "#ffffff",
+			"wr_layout_boxed_bg_mask_color": "rgba(0, 0, 0, 0)",
+			"general_overlay_color": "#f2f2f2",
+			"general_fields_bg": "#f9f9f9",
+			"wr_page_title_custom_color": 0,
+			"wr_page_title_bg_color": "#f2f2f2",
+			"wr_page_title_mask_color": "rgba(0, 0, 0, 0)",
+			"wr_page_title_link_colors": {
+				"normal": "#323232",
+				"hover": "#ff4064"
+			},
+			"wr_page_title_color": {
+				"head": "#323232",
+				"body": "#646464"
+			},
+			"footer_customize_color": 0,
+			"footer_top_color": {
+				"text": "#646464",
+				"heading": "#323232"
+			},
+			"footer_top_link_color": {
+				"normal": "#646464",
+				"hover": "#ff4064"
+			},
+			"footer_top_bg_color": "#ffffff",
+			"footer_bot_color": {
+				"bg": "#f2f2f2",
+				"text": "#646464"
+			},
+			"footer_bot_link_color": {
+				"normal": "#646464",
+				"hover": "#ff4064"
+			},
+			"btn_primary_bg_color": {
+				"normal": "#323232",
+				"hover": "#222"
+			},
+			"btn_primary_color": {
+				"normal": "#fff",
+				"hover": "#fff"
+			},
+			"btn_primary_border_color": {
+				"normal": "#323232",
+				"hover": "#323232"
+			},
+			"btn_secondary_bg_color": {
+				"normal": "rgba(255, 255, 255, 0)",
+				"hover": "#222"
+			},
+			"btn_secondary_color": {
+				"normal": "#323232",
+				"hover": "#222"
+			},
+			"btn_secondary_border_color": {
+				"normal": "#323232",
+				"hover": "#323232"
+			}
+		}
+	},
+	"profile-2": {
+		"title": "Dark",
+		"data": {
+			"custom_color": "#1a7aeb",
+			"content_body_color": {
+				"body_text": "#95a1bc",
+				"heading_text": "#ffffff"
+			},
+			"general_line_color": "#374056",
+			"content_loader_color": {
+				"icon": "#40b6ff",
+				"bg": "rgba(255, 255, 255, 0.92)"
+			},
+			"content_meta_color": "#868fa6",
+			"wr_general_container_color": "#1c2334",
+			"wr_layout_offset_color": "#ffffff",
+			"wr_page_body_bg_color": "#ffffff",
+			"wr_layout_boxed_bg_mask_color": "rgba(0, 0, 0, 0)",
+			"general_overlay_color": "#20283b",
+			"general_fields_bg": "#374056",
+			"wr_page_title_custom_color": 0,
+			"wr_page_title_bg_color": "#1c1c26",
+			"wr_page_title_mask_color": "rgba(0, 0, 0, 0)",
+			"wr_page_title_link_colors": {
+				"normal": "#b0b0c0",
+				"hover": "#40b6ff"
+			},
+			"wr_page_title_color": {
+				"head": "#ffffff",
+				"body": "#b0b0c0"
+			},
+			"footer_customize_color": 0,
+			"footer_top_color": {
+				"text": "#95a1bc",
+				"heading": "#ffffff"
+			},
+			"footer_top_link_color": {
+				"normal": "#95a1bc",
+				"hover": "#2088e7"
+			},
+			"footer_top_bg_color": "#262e41",
+			"footer_bot_color": {
+				"bg": "#1c2334",
+				"text": "#95a1bc"
+			},
+			"footer_bot_link_color": {
+				"normal": "#95a1bc",
+				"hover": "#ffffff"
+			},
+			"btn_primary_bg_color": {
+				"normal": "#1d80e9",
+				"hover": "#0f61b7"
+			},
+			"btn_primary_color": {
+				"normal": "#ffffff",
+				"hover": "#ffffff"
+			},
+			"btn_primary_border_color": {
+				"normal": "#1d80e9",
+				"hover": "#0f61b7"
+			},
+			"btn_secondary_bg_color": {
+				"normal": "#151b28",
+				"hover": "#1d80e9"
+			},
+			"btn_secondary_color": {
+				"normal": "#ffffff",
+				"hover": "#ffffff"
+			},
+			"btn_secondary_border_color": {
+				"normal": "#374056",
+				"hover": "#1d80e9"
+			}
+		}
+	},
+	"profile-3": {
+		"title": "Light",
+		"data": {
+			"custom_color": "#4593fc",
+			"content_body_color": {
+				"body_text": "#676c77",
+				"heading_text": "#546175"
+			},
+			"general_line_color": "#e7eaf1",
+			"content_loader_color": {
+				"icon": "#40b6ff",
+				"bg": "rgba(255, 255, 255, 0.92)"
+			},
+			"content_meta_color": "#868fa6",
+			"wr_general_container_color": "#ffffff",
+			"wr_layout_offset_color": "#ffffff",
+			"wr_page_body_bg_color": "#ffffff",
+			"wr_layout_boxed_bg_mask_color": "rgba(0, 0, 0, 0)",
+			"general_overlay_color": "#edf0f5",
+			"general_fields_bg": "#f8f9fb",
+			"wr_page_title_custom_color": 0,
+			"wr_page_title_bg_color": "#edf0f5",
+			"wr_page_title_mask_color": "rgba(0, 0, 0, 0)",
+			"wr_page_title_link_colors": {
+				"normal": "#546175",
+				"hover": "#4593fc"
+			},
+			"wr_page_title_color": {
+				"head": "#546175",
+				"body": "#676c77"
+			},
+			"footer_customize_color": 0,
+			"footer_top_color": {
+				"text": "#676c77",
+				"heading": "#546175"
+			},
+			"footer_top_link_color": {
+				"normal": "#676c77",
+				"hover": "#4593fc"
+			},
+			"footer_top_bg_color": "#edf0f5",
+			"footer_bot_color": {
+				"bg": "#546175",
+				"text": "#edf0f5"
+			},
+			"footer_bot_link_color": {
+				"normal": "#edf0f5",
+				"hover": "#ffffff"
+			},
+			"btn_primary_bg_color": {
+				"normal": "#1d80e9",
+				"hover": "#0f61b7"
+			},
+			"btn_primary_color": {
+				"normal": "#ffffff",
+				"hover": "#ffffff"
+			},
+			"btn_primary_border_color": {
+				"normal": "#1d80e9",
+				"hover": "#0f61b7"
+			},
+			"btn_secondary_bg_color": {
+				"normal": "#edf0f5",
+				"hover": "#4593fc"
+			},
+			"btn_secondary_color": {
+				"normal": "#868fa6",
+				"hover": "#ffffff"
+			},
+			"btn_secondary_border_color": {
+				"normal": "#ccd5e4",
+				"hover": "#4593fc"
+			}
+		}
+	}
+}

@@ -1,0 +1,127 @@
+/*	[ Toggles ]
+- - - - - - - - - - - - - - - - - - - - */
+.vc_toggle {
+	border-left: 2px solid #e9e9e9;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	ul {
+		margin-left: 20px;
+	}
+	&.vc_toggle_active {
+		border-left: 2px solid $primary-color;
+	}
+	&.vc_toggle_active,
+	&.vc_toggle_active .vc_toggle_title {
+		@include transition(border-color 1s);
+	}
+	.vc_toggle_title {
+		padding: 10px 0;
+		background: none;
+		border-bottom: 1px solid transparent;
+		position: relative;
+		> h4 {
+			font-size: 14px;
+			padding-right: 25px;
+			font-weight: normal;
+		}
+	}
+	&.vc_toggle_active .vc_toggle_title {
+		border-bottom-color: #e9e9e9;
+	}
+	.vc_toggle_content {
+		padding: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.vc_toggle_title .vc_toggle_icon {
+		@include square(15px);
+		line-height: 15px;
+		text-align: right;
+		position: absolute;
+		top: 40%;
+		right: 0;
+		display: block;
+		font-style: normal;
+	}
+	.vc_toggle_title .vc_toggle_icon:before {
+		@extend %transition;
+		@include square(10px);
+		background-color: transparent;
+		position: absolute;
+		top: 0;
+		right: 0;
+		content: "\f078";
+		font-family: "FontAwesome";
+		font-size: 10px;
+		color: #464646;
+		background-color: transparent;
+		opacity: 0;
+	}
+	&.vc_toggle_active .vc_toggle_title .vc_toggle_icon:before {
+		@include rotate(180deg);
+	}
+	.vc_toggle:hover .vc_toggle_title .vc_toggle_icon,
+	&.vc_toggle_active:hover .vc_toggle_title .vc_toggle_icon {
+		background-color: transparent;
+	}
+	.vc_toggle:hover .vc_toggle_title .vc_toggle_icon:before,
+	&.vc_toggle_active:hover .vc_toggle_title .vc_toggle_icon:before {
+		opacity: 1;
+		background-color: transparent;
+	}
+	&.vc_toggle_style-2 {
+		border: 1px solid #e9e9e9;
+		padding: 0;
+		margin: 0;
+		margin-bottom: -1px;
+		.vc_toggle_title,
+		.vc_toggle_content {
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+	}
+	&.vc_toggle_style-3 {
+		border: 0;
+		padding: 0;
+		margin: 0;
+		.vc_toggle_title {
+			border: 1px solid #e9e9e9;
+			padding: 10px;
+			margin-bottom: -1px;
+		}
+		&.vc_toggle_active .vc_toggle_title {
+			border-left: 1px solid $primary-color;
+		}
+		.vc_toggle_content {
+			border-left: 1px solid #e9e9e9;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			padding: 10px;
+		}
+		.vc_toggle_title .vc_toggle_icon {
+			right: 10px;
+		}
+	}
+	&.vc_toggle_style-4 {
+		border: 0;
+		padding: 0;
+		margin: 0;
+		.vc_toggle_title {
+			border-bottom-color: #e9e9e9;
+			position: relative;
+			&:after {
+				@include transition(all 1s);
+				content: "";
+				position: absolute;
+				left: 0;
+				bottom: -1px;
+				height: 1px;
+				width: 0;
+				background: $primary-color;
+			}
+		}
+	}
+	&.vc_toggle_active.vc_toggle_style-4 .vc_toggle_title:after {
+		width: 45px;
+	}
+}

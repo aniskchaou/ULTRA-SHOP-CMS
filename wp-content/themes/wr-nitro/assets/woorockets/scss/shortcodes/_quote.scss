@@ -1,0 +1,40 @@
+/*	[ Quote]
+- - - - - - - - - - - - - - - - - - - - */
+.nitro-quote {
+	blockquote {
+		padding: 15px 30px;
+		border-width: 0;
+	}
+	&.border blockquote {
+		border-width: 3px;
+	}
+	&.border.tr blockquote {
+		border-left-width: 0 !important;
+		border-right: 3px solid #363636;
+	}
+	&.quote-icon .quote-content .fa {
+		font-size: 24px;
+		padding-right: 15px;
+	}
+	&.quote-icon .quote-content svg {
+		margin-right: 10px;
+		float: left;
+	}
+	&.quote-icon .quote-content svg text {
+		font-size: 100px;
+		font-family: "Times New Roman", Georgia, Serif;
+	}
+	.quote-author {
+		font-size: 13px;
+	}
+	&.solid-bg .quote-author {
+		color: #fff;
+	}
+	&.solid-bg .quote-author:before {
+		background: #fff;
+	}
+	&.solid-bg blockquote,
+	&.outline blockquote {
+		padding: 15px 20px;
+	}
+}

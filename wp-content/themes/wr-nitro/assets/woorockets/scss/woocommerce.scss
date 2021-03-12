@@ -1,0 +1,18 @@
+// Variables and mixins
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/extended";
+
+// Woocommerce pages
+@import "woocommerce/general";
+@import "woocommerce/archive";
+@import "woocommerce/details";
+@import "woocommerce/hover_effects";
+@import "woocommerce/item_style";
+@import "woocommerce/cart";
+@import "woocommerce/checkout";
+@import "woocommerce/my_account";
+@import "woocommerce/yith_plugins";
+@import "woocommerce/quickview";
+@import "woocommerce/product_countdown";
+@import "woocommerce/responsive";

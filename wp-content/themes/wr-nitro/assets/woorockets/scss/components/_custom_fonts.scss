@@ -1,0 +1,68 @@
+/*	[ Custom Font ]
+- - - - - - - - - - - - - - - - - - - - */
+@font-face {
+	font-family: 'nitro-icons';
+	src: url('../fonts/wr-icon.eot?yun4bb#iefix') format('embedded-opentype'), url('../fonts/wr-icon.ttf?yun4bb') format('truetype'), url('../fonts/wr-icon.woff?yun4bb') format('woff'), url('../fonts/wr-icon.svg?yun4bb#wr-icon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class*="nitro-icon-"] {
+	font-family: 'nitro-icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	display: inline-block;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Unicode string
+@function unicode($str){
+	@return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+}
+
+@each $icons, $content in (cart: 'e804', compare: 'e805', quickview: 'e806', wishlist: 'e813', quickbuy: 'ea97') {
+	.nitro-icon-set-1-#{$icons}:before {
+		content: unicode($content);
+	}
+}
+
+@each $icons, $content in (cart: 'e809', compare: 'ea96', quickview: 'e807', wishlist: 'e80a', quickbuy: 'e80b') {
+	.nitro-icon-set-2-#{$icons}:before {
+		content: unicode($content);
+	}
+}
+
+@each $icons, $content in (cart: 'e80f', compare: 'e80d', quickview: 'ea9a', wishlist: 'f08a', quickbuy: 'e811') {
+	.nitro-icon-set-3-#{$icons}:before {
+		content: unicode($content);
+	}
+}
+
+@each $icons, $content in (cart: 'e818', compare: 'e816', quickview: 'e815', wishlist: 'e812', quickbuy: 'e814') {
+	.nitro-icon-set-4-#{$icons}:before {
+		content: unicode($content);
+	}
+}
+
+@each $icons, $content in (cart: 'e80e', compare: 'e800', quickview: 'e810', wishlist: 'e80c', quickbuy: 'e801') {
+	.nitro-icon-set-5-#{$icons}:before {
+		content: unicode($content);
+	}
+}
+
+@each $icons, $content in (cart: 'e819', compare: 'f0ec', quickview: 'e81a', wishlist: 'e817', quickbuy: 'f218') {
+	.nitro-icon-set-6-#{$icons}:before {
+		content: unicode($content);
+	}
+}
+
+@each $key, $content in (1: 'e802', 2: 'e803', 3: 'e808', 4: 'e81b', 5: 'e81c', 6: 'e81d', 7: 'e81e', 8: 'e81f', 9: 'e900', 10: 'e901' ) {
+	.nitro-icon-cart-#{$key}:before {
+		content: unicode($content);
+	}
+}

@@ -1,0 +1,451 @@
+/*	[ Widgets ]
+- - - - - - - - - - - - - - - - - - - - */
+.page .primary-sidebar > div {
+	margin-top: 0;
+}
+.widget-title {
+	font-size: 18px;
+	line-height: 24px;
+	position: relative;
+	margin: 0 0 15px;
+}
+.widget ul {
+	list-style: none;
+	padding: 0;
+}
+.widget-search {
+	position: relative;
+}
+.widget-search input {
+	width: 100%;
+	padding-right: 40px;
+}
+.widget-search button {
+	@include absolute($top: 0, $right: 0);
+	@include square(40px);
+	background: none;
+	&:hover {
+		color: #000;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.wr-desktop {
+		.menu-on-right {
+			.widget_nav_menu {
+				li {
+					.sub-menu {
+						right: calc(100% - 2px);
+						left: inherit;
+						li {
+							text-align: right;
+							&.menu-item-has-children > a:before {
+								content: '\f104';
+								font-family: FontAwesome;
+								left: 20px;
+								right: inherit;
+								position: absolute;
+							}
+						}	
+					}
+				}
+			}
+		}
+		.widget_nav_menu {
+			li {
+				margin-bottom: 0 !important;
+				position: relative;
+				&.menu-item-has-children > a:before {
+					content: '\f105';
+					font-family: FontAwesome;
+					right: 20px;
+					position: absolute;
+				}
+				a {
+					display: block;
+					padding: 10px 15px;
+				}
+				.sub-menu {
+					position: absolute;
+					top: -40px;
+					background: #fff;
+					z-index: 9999;
+					left: calc(100% - 2px);
+					opacity: 0;
+					visibility: hidden;
+					-webkit-box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.09);
+		    		box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.09);
+		    		transition: all .2s;
+				}
+				&:hover {
+					> .sub-menu {
+						opacity: 1;
+						visibility: visible;
+						top: 0;
+					}
+				}
+			}
+		}
+		.footer {
+			.widget_nav_menu {
+				.sub-menu {
+					a {
+						color:#323232;
+					}
+				}
+			}
+		}
+	}
+}
+
+.widget {
+	caption,
+	th,
+	td {
+		text-align: center;
+		font-size: 14px;
+	}
+	select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
+	}
+	input,
+	textarea {
+		max-width: 100%;
+	}
+	ul {
+		li {
+			margin-bottom: 10px;
+			position: relative;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			.count {
+				float: right;
+				clear: both;
+				color: #888;
+				font-size: 12px;
+				padding: 0px 8px;
+				border-radius: 2px;
+				display: block;
+				line-height: 20px;
+				margin-top: 5px;
+			}
+		}
+	}
+	 .children,
+	&.widget_nav_menu ul.sub-menu {
+		width: 100%;
+	}
+	&.widget_nav_menu {
+		.site-navigator ul.sub-menu {
+			display: block;
+			position: relative;
+			opacity: 1;
+			box-shadow: none;
+			ul {
+				left: 0;
+			}
+		}
+		.site-navigator {
+			li a,
+			ul.sub-menu li a {
+				padding: 0;
+			}
+			.menu-item-has-children i {
+				@extend %display-none;
+			}
+			li {
+				float: none;
+			}
+		}
+	}
+	#wp-calendar caption {
+		background: #f9f9f9;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-bottom: 0;
+		padding: 10px;
+	}
+	.tagcloud {
+		overflow: hidden;
+		a {
+			float: left;
+			font-size: 14px !important;
+			margin: 0 8px 8px 0;
+			padding: 6px 12px;
+		}
+	}
+	.nitro-instagram {
+		margin: 0 -5px;
+		&:hover .item img {
+			opacity: .3;
+		}
+		.item {
+			float: left;
+			padding: 5px;
+			img {
+				@extend %transition;
+				border-radius: 2px;
+			}
+			&:hover img {
+				opacity: 1;
+			}
+		}
+	}
+	.cols-2 .item {
+		width: 50%;
+	}
+	.cols-3 .item {
+		width: 33.33%;
+	}
+	.cols-4 .item {
+		width: 25%;
+	}
+	.cols-5 .item {
+		width: 20%;
+	}
+	.widget_rss {
+		ul li {
+			margin-bottom: 20px;
+			a {
+				margin: 0;
+				&:hover {
+					border-color: $primary-color;
+				}
+			}
+		}
+		.rss-date {
+			font-size: 11px;
+		}
+	}
+	.widget-recent li {
+		border-bottom: 1px solid $border-color;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		&:last-child {
+			border: 0;
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			font-size: 14px;
+			margin-bottom: 0;
+			display: block;
+			line-height: 18px;
+			i {
+				background: #3d3d3d;
+				color: #f5f5f5;
+				font-size: 14px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				width: 30px;
+				border-radius: 2px;
+				margin-right: 15px;
+			}
+		}
+		.entry-thumb {
+			margin-right: 10px;
+			width: 45px;
+		}
+		.info {
+			@include calc(width, '100% - 60px');
+			padding: 0;
+		}
+		time,
+		span.tu,
+		span.tu a {
+			font-size: 10px;
+			text-transform: uppercase;
+		}
+	}
+	.product_list_widget {
+		li {
+			overflow: hidden;
+			margin-top: 0;
+			padding: 0 0 10px;
+			border-bottom: 1px solid $border-color;
+			position: relative;
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+		.product-info {
+			float: left;
+			@include calc(width, '100% - 80px');
+		}
+		h3 {
+			font-size: 14px;
+			margin: 0;
+			line-height: 18px;
+			a {
+				display: block;
+				margin-bottom: 0;
+			}
+		}
+		a img {
+			width: 100%;
+			border-radius: 2px;
+		}
+		.amount {
+			line-height: 26px;
+		}
+		ins {
+			background: none;
+			float: left;
+			margin-right: 5px;
+		}
+		del .amount {
+			color: #ddd;
+			font-size: 12px;
+			text-decoration: line-through;
+		}
+		del {
+			color: transparent;
+		}
+	}
+	.product_list_widget li > a,
+	&.widget_recent_reviews .product_list_widget li img {
+		width: 60px;
+		border-radius: 2px;
+		margin: 0 10px 0 0;
+		float: left;
+	}
+	&.widget_recent_reviews .product_list_widget {
+		li {
+			line-height: 20px;
+			> a {
+				float: none;
+			}
+			img  {
+				margin-top: 5px;
+			}
+		}
+	}
+	.product-categories span.fa,
+	.widget_nav_menu .fa {
+		@include square(15px);
+		cursor: pointer;
+		right: 0;
+		top: 4px;
+	}
+	&.widget_product_categories ul li .count + span {
+		position: initial;
+	}
+	.product-categories .count + span.fa {
+		float: none;
+		margin-top: 0;
+		background: none;
+	}
+	.product-categories .cat-parent .children,
+	.widget_nav_menu .menu-item-has-children > .sub-menu {
+		@extend %display-none;
+	}
+	.product-categories .current-cat > .children,
+	.product-categories .current-cat-parent > .children,
+	.widget_nav_menu .menu-item-has-children.current-menu-item > .sub-menu {
+		@extend %display-block;
+	}
+	.product-categories .cat-parent.active > span.fa:before,
+	.product-categories .current-cat > span.fa:before,
+	.product-categories .current-cat-parent > span.fa:before,
+	.widget_nav_menu .menu-item-has-children.active > span.fa:before,
+	.widget_nav_menu .menu-item-has-children.current-menu-item > span.fa:before {
+		content: "\f106";
+	}
+	.product-categories .current-cat.active > span.fa:before,
+	.product-categories .current-cat-parent.active > span.fa:before,
+	.widget_nav_menu .menu-item-has-children.current-menu-item.active > span.fa:before  {
+		content: "\f107";
+	}
+	.widget_nav_menu li > ul > li > a,
+	.product-categories li > ul > li > a {
+		padding-right: 20px;
+	}
+	.woof_sid_auto_shortcode,
+	.woof_auto_show_outer {
+		@extend %width-100;
+	}
+}
+.widget_price_filter {
+	.ui-slider {
+		position: relative;
+		height: 4px;
+		background: #ebebeb;
+		margin-bottom: 20px;
+		border-radius: 3px;
+		> * {
+			background: #3c3c3c;
+			position: absolute;
+		}
+	}
+	.ui-slider-range {
+		height: 4px;
+	}
+	.ui-slider-handle {
+		@include square(13px);
+		border-radius: 50%;
+		outline: 0;
+		top: -5px;
+		margin-left: -1px;
+		cursor: move;
+		background: #fff;
+		border: 2px solid #3c3c3c;
+		&:last-child {
+			margin-left: -11px;
+		}
+	}
+	.button {
+		float: right;
+		letter-spacing: 1px;
+	}
+	.price_label {
+		line-height: 40px;
+	}
+}
+.widget-style-2 .woof_container_inner > h4,
+.widget-style-2 .widget .widget-title {
+	padding-bottom: 15px;
+	position: relative;
+}
+.widget-style-2 .woof_container_inner > h4:before,
+.widget-style-2 .widget .widget-title:before {
+	@include size(60px, 1px);
+	content: '';
+	position: absolute;
+	bottom: -1px;
+}
+.widget-style-3 .widget .widget-title:before {
+	@include size(2px, 25px);
+	content: '';
+	position: absolute;
+	left: -12px;
+}
+.b-single .entry-content .widget {
+	margin: 0 0 40px;
+	ul {
+		margin-left: 0
+	}
+}
+.yith-woocompare-widget {
+	overflow: hidden;
+}
+.yith-woocompare-widget a.compare {
+	padding: inherit;
+}
+.wr-mobile {
+	.widget.widget_nav_menu {
+		.fa {
+			width: 15px;
+			height: 15px;
+			cursor: pointer;
+			right: 0;
+			top: 4px;
+		}
+		.sub-menu {
+			padding-left: 20px;
+			margin-top: 10px;
+		}
+	}
+}

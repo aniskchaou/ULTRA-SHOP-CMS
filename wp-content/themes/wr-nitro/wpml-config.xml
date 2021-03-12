@@ -1,0 +1,12 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_wr-nitro">
+			<key name="under_construction_title"/>
+			<key name="under_construction_message"/>
+			<key name="wc_archive_page_title_content"/>
+			<key name="wc_thankyou_content"/>
+			<key name="page_404_content"/>
+			<key name="footer_bot_text"/>
+		</key>
+	</admin-texts>
+</wpml-config>

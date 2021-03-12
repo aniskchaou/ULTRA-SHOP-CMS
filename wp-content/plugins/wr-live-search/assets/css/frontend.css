@@ -1,0 +1,198 @@
+/**
+ * @version    1.0
+ * @package    WR_Live_Search
+ * @author     WooRockets Team <support@woorockets.com>
+ * @copyright  Copyright (C) 2014 WooRockets.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.woorockets.com
+ */
+
+.wrls-form {
+	display: -ms-block;
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.wrls-form { display: block; }
+}
+.wrls-form .cate-search-outer {
+	margin-right: 10px;
+	position: relative;
+}
+.wrls-form .cate-search-outer:before {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid #333;
+	position: absolute;
+	right: 10px;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	top: 50%;
+	pointer-events: none;
+}
+.rtl .wrls-form .cate-search-outer:before {
+	right: auto;
+	left: 10px;
+}
+.wrls-form .cate-search {
+	width: initial;
+	height: 36px;
+	outline: none;
+	padding-right: 22px;
+	border: 1px solid #E7E7E7;
+	background: #fff;
+}
+.wrls-form .btn-livesearch {
+	height: 36px;
+	margin-left: 10px;
+	line-height: 1;
+	font-size: 14px;
+	padding: 0 15px;
+	background: #999;
+	border: none;
+	color: #fff;
+	outline: none;
+}
+.wrls-form .btn-livesearch:hover {
+	background: #666;
+}
+.wrls-form .results-search {
+	position: relative;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 0;
+	-ms-flex: 1 0;
+	flex: 1 0;
+}
+.wrls-form .txt-livesearch {
+	background: none;
+	position: relative;
+	z-index: 1;
+}
+.wrls-form .suggestion-search {
+	width: 100%;
+	box-sizing: border-box;
+	height: 36px;
+	margin: 0;
+	padding: 0 35px 0 10px;
+	font-size: 14px;
+	outline: none;
+	border: 1px solid #E7E7E7;
+}
+.wrls-form .suggestion-search-data {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	opacity: 0.4;
+	line-height: 36px;
+	white-space: nowrap;
+	overflow: hidden;
+	width: calc(100% - 35px);
+	padding-right: 0;
+}
+.wrls-form .loading-search {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 1;
+}
+.wrls-form .not-results-search,
+.wrls-form .products-search {
+	border: 1px solid #E7E7E7;
+	position: absolute;
+	top: -webkit-calc(100% - 1px);
+	top: calc(100% - 1px);
+	left: 0;
+	background: #fff;
+	width: 100%;
+	z-index: 99999;
+}
+.wrls-form .not-results-search {
+	font-size: 13px;
+	padding: 10px;
+}
+.wrls-form .product-search {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 10px;
+	border-bottom: 1px solid #E7E7E7;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+	position: relative;
+}
+.wrls-form .product-search.view-all {
+	color: #333;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.wrls-form .product-search .mask-link {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.wrls-form .product-search.active-key,
+.wrls-form .product-search:hover {
+	background: #f5f5f5;
+}
+.wrls-form .product-search:last-child {
+	border-bottom: none;
+	cursor: pointer;
+}
+.wrls-form .product-search .product-image {
+	margin-right: 10px;
+	width: 50px;
+}
+.wrls-form .product-search .product-title-price {
+	width: -webkit-calc(100% - 60px);
+	width: calc(100% - 60px);
+}
+.wrls-form .product-search .product-title {
+	font-size: 13px;
+	line-height: 150%;
+	color: #333;
+}
+.wrls-form .product-search .product-title .keyword-current {
+	background: #FFEBAE;
+	color: #6B4E3F;
+	padding: 0 2px;
+}
+.wrls-form .product-search .product-price {
+	font-size: 12px;
+}
+.wrls-form .product-search .product-price del {
+	margin-right: 5px;
+	color: #999;
+}
+.wrls-form .product-search .product-price ins, .wrls-form .product-search .product-price > .amount {
+	background: none;
+	color: #FF6565;
+}
+.widget-wrls .wrls-form .cate-search-outer {
+	margin: 0 0 7px 0;
+}
+.widget-wrls .wrls-form .cate-search-outer, .widget-wrls .wrls-form .cate-search {
+	width: 100%;
+}
+.widget-wrls .wrls-form .btn-livesearch {
+	margin: 7px 0 0 0;
+	width: 100%;
+}

@@ -1,0 +1,204 @@
+/*	[ Nitro Video ]
+- - - - - - - - - - - - - - - - - - - - */
+.sc-video {
+	.fluid-iframe {
+		width: 100%;
+		padding-bottom: 56.25%;
+		iframe {
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+	.sc-video-thumb {
+		iframe {
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			display: none;
+		}
+		img {
+			cursor: pointer;
+		}
+		svg {
+			left: calc(50% - 32px);
+			top: calc(50% - 32px);
+		}
+	}
+	&.tr .fluid-iframe iframe {
+		right: 0;
+	}
+	&.tc .fluid-iframe iframe {
+		@extend %translateX-50;
+		left: 50%;
+	}
+	&[class*="shadow-"] > div {
+		z-index: 1;
+	}
+	&[class*="shadow-"] > div:before,
+	&[class*="shadow-"] > div:after {
+		content: "";
+		position: absolute;
+		z-index: -1;
+	}
+	&.shadow-1 {
+		> div img {
+			border-radius: 2% 0% 0% 0% / 20% 0% 0% 0%;
+			box-shadow: 0 1px 5px rgba(0, 0, 0, .25), 0 0 50px rgba(0, 0, 0, .1) inset;
+		}
+		> div:before {
+			@include transform(rotate(7deg) translate(20px,25px) skew(20deg));
+			top: 0;
+			left: 0;
+			width: 33%;
+			height: 25%;
+			box-shadow: -10px -10px 15px rgba(0,0,0,0.5);
+		}
+	}
+	&.shadow-2 {
+		> div img {
+			border-radius: 0% 0% 25% 25% / 0% 0% 3% 3%;
+			box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+		}
+		> div:before {
+			@include transform(rotate(-3deg) skew(-0deg));
+			bottom: 15px;
+			left: 10px;
+			width: 50%;
+			height: 20%;
+			box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+		}
+		> div:after {
+			@include transform(rotate(3deg) skew(0deg));
+			bottom: 15px;
+			right: 10px;
+			width: 50%;
+			height: 20%;
+			box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+		}
+	}
+	&.shadow-3 {
+		> div img {
+			box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+			border-radius: 1% 1% 1% 1% / 1% 1% 1% 1%;
+		}
+		> div:before {
+			width: 80%;
+			height: 40%;
+			left: 10%;
+			border-radius: 50%;
+			top: 0;
+			box-shadow: 0 -7px 16px rgba(0,0,0,0.4);
+		}
+		> div:after {
+			width: 80%;
+			height: 40%;
+			left: 10%;
+			border-radius: 50%;
+			bottom: 0;
+			box-shadow: 0 7px 16px rgba(0,0,0,0.4);
+		}
+	}
+	&.shadow-4 {
+		> div img {
+			box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+			border-radius: 1% 1% 1% 1% / 1% 1% 1% 1%;
+		}
+		> div:after {
+			width: 80%;
+			height: 40%;
+			left: 10%;
+			border-radius: 50%;
+			bottom: 0;
+			box-shadow: 0 7px 16px rgba(0,0,0,0.4);
+		}
+	}
+	&.shadow-5 {
+		> div img {
+			box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+			border-radius: 1% 1% 1% 1% / 1% 1% 1% 1%;
+		}
+		> div:before {
+			width: 80%;
+			height: 40%;
+			left: 10%;
+			border-radius: 50%;
+			top: 0;
+			box-shadow: 0 -7px 16px rgba(0,0,0,0.4);
+		}
+	}
+	&.shadow-6 {
+		> div img {
+			box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+			border-radius: 1% 1% 1% 1% / 1% 1% 1% 1%;
+		}
+		> div:before {
+			@include transform(skew(36deg));
+			@include transform-origin(0% 100%);
+			left: 80px;
+			bottom: 5px;
+			width: 100%;
+			height: 37%;
+			border-radius: 10% 0 0 0;
+			box-shadow: -86px 0 17px rgba(0,0,0,0.33);
+		}
+	}
+	&.shadow-7 {
+		> div img {
+			box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+			border-radius: 1% 1% 1% 1% / 1% 1% 1% 1%;
+		}
+		> div:before {
+			@include transform(skew(-36deg));
+			@include transform-origin(0% 100%);
+			right: 80px;
+			bottom: 5px;
+			width: 100%;
+			height: 37%;
+			border-radius: 0 10% 0 0;
+			box-shadow: 86px 0 17px rgba(0,0,0,0.33);
+		}
+	}
+	&.shadow-8 {
+		> div img {
+			box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+			border-radius: 0% 0% 1% 0% / 0% 0% 20% 0%;
+		}
+		> div:before {
+			@include transform(skew(2deg,2deg) translate(3px,8px));
+			width: 98%;
+			height: 96%;
+			bottom: 0px;
+			right: 0px;
+			background: #eee;
+			border: 1px solid #ccc;
+			box-shadow: 1px 1px 8px rgba(0,0,0,0.1);
+		}
+		> div:after {
+			@include transform(skew(2deg,2deg) translate(-1px,2px));
+			width: 98%;
+			height: 96%;
+			bottom: 0px;
+			right: 0px;
+			background: #eee;
+			border: 1px solid #ccc;
+			box-shadow: 0 0 8px rgba(0,0,0,0.1);
+		}
+	}
+	&.shadow-9 {
+		> div img {
+			box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
+			border-radius: 1% 1% 1% 1% / 1% 1% 1% 1%;
+		}
+		> div:before {
+			left: 0;
+			width: 100%;
+			height: 80%;
+			border-radius: 10px / 100px;
+			top: 10%;
+			bottom: 10%;
+			box-shadow: 0 0 15px rgba(0,0,0,0.6);
+		}
+	}
+
+}

@@ -1,0 +1,235 @@
+
+/*	[ Blog - Single post ]
+- - - - - - - - - - - - - - - - - - - - */
+.single-post .content h1,
+.wpb_text_column h1 {
+	margin-top: 0.6875em;
+	margin-bottom: 0.22916667em;
+}
+.single-post .content h2,
+.wpb_text_column h2 {
+	margin-top: 1.03125em;
+	margin-bottom: 0.34375em;
+}
+.single-post .content h3,
+.wpb_text_column h3 {
+	margin-top: 1.37500001em;
+	margin-bottom: 0.45833334em;
+}
+.single-post .content h4,
+.single-post .content h5,
+.single-post .content h6,
+.wpb_text_column h4,
+.wpb_text_column h5,
+.wpb_text_column h6 {
+	margin-top: 1.83333333em;
+	margin-bottom: 0.61111111em;
+}
+.single-post .wrapper .style-2 + .container .primary-sidebar > div {
+	margin-top: 0;
+}
+.entry-thumb.thumb-no-mg {
+	margin: 0;
+}
+.b-single {
+	.format-quote .entry-thumb.thumb-no-mg {
+		margin-bottom: 30px;
+	}
+	.format-video .wp-video,
+	.format-video .entry-thumb iframe {
+		width: 100% !important;
+	}
+	.format-video .entry-thumb iframe {
+		height: 640px;
+	}
+	.content {
+		margin-bottom: 30px;
+	}
+	.post-tags a {
+		font-family: Georgia;
+		font-style: italic;
+		display: inline-block;
+		margin-left: 6px;
+		font-size: 12px;
+		color: $text-color;
+	}
+	.single-nav {
+		padding-top: 30px;
+		margin: 30px 0;
+		border-top: 1px solid #e8e8e8;
+		> * {
+			width: 50%;
+			float: left;
+			font-size: 14px;
+			position: relative;
+		}
+		.next {
+			text-align: right;
+			float: right;
+		}
+		.meta-nav {
+			position: absolute;
+			opacity: 0;
+			-webkit-transition: all 0.3s;
+			transition: all 0.3s;
+		}
+		.prev .meta-nav {
+			left: -30px;
+		}
+		.next .meta-nav {
+			right: -30px;
+		}
+		> div:hover .meta-nav {
+			opacity: 1;
+		}
+		.prev:hover .meta-nav {
+			left: -20px;
+		}
+		.next:hover .meta-nav {
+			right: -20px;
+		}
+		> div > span {
+			display: block;
+			font-size: 12px;
+		}
+	}
+	.post-author {
+		padding: 20px;
+		overflow: hidden;
+		margin: 30px 0;
+	}
+	.author-info {
+		overflow: hidden;
+		padding-left: 22px;
+		a {
+			color: $text-color;
+			font-weight: 600;
+			display: table;
+			margin-bottom: 10px;
+		}
+		p {
+			margin: 0;
+		}
+	}
+	.quote-content {
+		font: italic 16px/30px Georgia;
+		letter-spacing: 0;
+		.mask {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.7);
+		}
+	}
+	.wr-nitro-carousel .owl-nav > div {
+		font-size: 5em;
+		color: #fff;
+	}
+	.entry-content {
+		p, blockquote {
+			margin: 1.1em 0;
+		}
+		ol, ul {
+			margin-left: 20px;
+		}
+	}
+	.hentry.yith-wcbm-badge {
+		display: none;
+	}
+}
+.entry-content .mejs-container {
+	margin-bottom: 20px;
+}
+.has-social-share .b-single .entry-content {
+	margin-left: 100px;
+}
+.page-links {
+	clear: both;
+	margin: 0 0 1.75em;
+	a,
+	> span {
+		border: 1px solid #d1d1d1;
+		border-radius: 2px;
+		display: inline-block;
+		font-size: 13px;
+		font-size: 0.8125rem;
+		height: 1.8461538462em;
+		line-height: 1.6923076923em;
+		margin-right: 0.3076923077em;
+		text-align: center;
+		width: 1.8461538462em;
+	}
+	a {
+		background-color: #1a1a1a;
+		border-color: #1a1a1a;
+		color: #fff;
+		&:hover,
+		&:focus {
+			border-color: transparent;
+			color: #fff;
+		}
+	}
+	> .page-links-title {
+		@include square(auto);
+		border: 0;
+		color: #1a1a1a;
+		margin: 0;
+		padding-right: 0.6153846154em;
+	}
+}
+.type-page.hentry ul li,
+.b-single .entry-content ul li,
+body:not(.vc-activated) .page.hentry ul li,
+.wpb_text_column.wpb_content_element ul li,
+div[itemprop="description"] ul li {
+	list-style: inherit;
+}
+.type-page.hentry ol li,
+.entry-content ol li {
+	list-style-type: decimal;
+}
+.entry-content .nitro-list li,
+.payment_methods li {
+	list-style: none !important;
+}
+div[itemprop="description"] ul {
+	padding-left: 15px;
+}
+/*	[ Social Share ]
+- - - - - - - - - - - - - - - - - - - - */
+.social-share {
+	margin-left: 0;
+	list-style: none;
+	li {
+		margin-right: 5px;
+		font-size: 12px;
+		a {
+			width: 40px;
+			line-height: 38px;
+			border: 1px solid #e2e2e2;
+			letter-spacing: 0;
+		}
+		a[title="Facebook"]:hover {
+			border-color: #6078aa !important;
+			color: #6078aa;
+		}
+		a[title="Twitter"]:hover {
+			border-color: #00abf0 !important;
+			color: #00abf0;
+		}
+		a[title="Googleplus"]:hover {
+			border-color: #d95232 !important;
+			color: #d95232;
+		}
+		a[title="Pinterest"]:hover {
+			border-color: #db2828 !important;
+			color: #db2828;
+		}
+		a[title="VK"]:hover {
+			border-color: #507299 !important;
+			color: #507299;
+		}
+	}
+}

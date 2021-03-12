@@ -1,0 +1,85 @@
+.snp-theme-likebox {
+	padding: 5px;
+	position: relative;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	line-height: normal;
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+	overflow: hidden;
+	min-width: 320px;
+}
+.snp-theme-likebox .snp-share {
+	display: inline-block;
+	padding: 0 5px;
+	vertical-align: middle;
+}
+
+.snp-theme-likebox .snp-share-gp {
+	width: 69px;
+}
+
+.snp-theme-likebox .snp-share-gp div {
+	display: block !important;
+}
+
+.snp-theme-likebox .snp-share-tw {
+	width: 90px;
+}
+
+.snp-theme-likebox .snp-share-pi img {
+	vertical-align: top;
+}
+
+.snp-theme-likebox .snp-subscribe {
+	margin-top: 20px;
+}
+
+.snp-theme-likebox .snp-subscribe-social {
+	text-align: center;
+	line-height: 30px;
+}
+
+.snp-theme-likebox .snp-powered {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: -36px;
+  height: 46px;
+  padding: 10px 35px 0;
+  padding-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 36px;
+  background: #182945;
+  color: #fff;
+}
+.snp-theme-likebox .snp-content {
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.snp-theme-likebox .snp-content-inner {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.snp-theme-likebox .fb_iframe_widget, .snp-theme-likebox .fb_iframe_widget span, .snp-theme-likebox .fb_iframe_widget span iframe[style] {width: 100% !important;}
+ .snp-theme-likebox .fb-comments{width: 100% !important;}
+			.snp-theme-likebox .fb-comments iframe[style]{width: 100% !important;}
+			.snp-theme-likebox .fb-like-box{width: 100% !important;}
+			.snp-theme-likebox .fb-like-box iframe[style]{width: 100% !important;}
+			.snp-theme-likebox .fb-comments span{width: 100% !important;}
+			.snp-theme-likebox .fb-comments iframe span[style]{width: 100% !important;}
+			.snp-theme-likebox .fb-like-box span{width: 100% !important;}
+			.snp-theme-likebox .fb-like-box iframe span[style]{width: 100% !important;} 
+			.snp-theme-likebox .-cx-PRIVATE-pluginBoxContainer__border{ border:none;}

@@ -1,0 +1,112 @@
+/*	[ Nitro Carousel ]
+- - - - - - - - - - - - - - - - - - - - */
+.wr-nitro-carousel {
+	.owl-dots,
+	.owl-nav {
+		text-align: center;
+	}
+	.owl-dots .owl-dot.active span,
+	.owl-dots .owl-dot:hover span {
+		background: #b2b2b2;
+	}
+	.owl-dots .owl-dot {
+		display: inline-block;
+		margin: 20px 2px 0;
+		span {
+			border: 1px solid #999;
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			border-radius: 100%;
+		}
+	}
+	.owl-nav > div {
+		display: inline-block;
+		font-size: 3em;
+		padding: 0 20px;
+		position: absolute;
+		left: 40px;
+		opacity: 0;
+		visibility: hidden;
+		height: 100%;
+		top: 0;
+		&:hover {
+			background: rgba(0, 0, 0, .8);
+			color: #fff;
+		}
+		i {
+			@extend %translateY-50;
+			top: 50%;
+			position: relative;
+		}
+	}
+	&:hover .owl-nav > .owl-prev,
+	&:hover .owl-nav > .owl-next {
+		@include visible;
+		left: 0;
+	}
+	&:hover .owl-nav > .owl-next {
+		right: 0;
+		left: auto;
+	}
+	.owl-nav > .owl-next {
+		right: 40px;
+		left: auto;
+	}
+	.owl-nav > div,
+	.owl-dots .owl-dot span {
+		@extend %transition;
+	}
+	.owl-item img {
+		display: inline-block;
+	}
+}
+.nitro-carousel {
+	> div {
+		position: initial;
+		margin: 0;
+	}
+	.owl-theme .owl-controls {
+		margin: 0;
+	}
+	@extend %fc;
+	@extend %aic;
+	@extend %jcc;
+	.wpb_content_element {
+		margin-bottom: 0;
+	}
+}
+
+/*	[ Product carousel ]
+- - - - - - - - - - - - - - - - - - - - */
+.sc-products {
+	&.wr-nitro-carousel {
+		margin: 0;
+		.product {
+			width: 100% !important;
+			padding: 0;
+		}
+		&.boxed .product {
+			padding: 5px;
+			margin: 0;
+		}
+		.owl-nav > div {
+			top: 0;
+		}
+	}
+}
+.sc-product-carousel {
+	.p-title {
+		font-size: 18px;
+		line-height: 18px;
+		margin: 20px 0 15px;
+	}
+	.p-price {
+		font-size: 24px;
+		color: #b5b5b5;
+	}
+	.owl-theme .owl-controls .owl-page span {
+		width: 6px;
+		height: 6px;
+	}
+}

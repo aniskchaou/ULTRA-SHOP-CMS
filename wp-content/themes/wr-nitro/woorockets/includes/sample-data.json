@@ -1,0 +1,729 @@
+[
+	{
+		"id": "main",
+		"name": "Main Demo",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-00.jpg",
+		"demo": "http://nitro.woorockets.com/niche-00",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-00_sample_data.zip",
+		"tags": ["all"],
+		"main": true,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/home.jpg"
+			},
+			"home-02": {
+				"name": "Home - 02",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/home-02.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/home-02.jpg"
+			},
+			"home-03": {
+				"name": "Home - 03",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/home-03.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/home-03.jpg"
+			},
+			"home-04": {
+				"name": "Home - 04",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/home-04.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/home-04.jpg"
+			},
+			"home-05": {
+				"name": "Home - 05",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/home-05.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/home-05.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/about.jpg"
+			},
+			"faq": {
+				"name": "FAQs",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/faq.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/faq.jpg"
+			},
+			"lookbook": {
+				"name": "Lookbook",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/lookbook.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/lookbook.jpg"
+			},
+			"product-mapper": {
+				"name": "Product Mapper",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/product-mapper.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/product-mapper.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-00/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-00/contact.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-21",
+		"name": "Taste Tea",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-21.jpg",
+		"demo": "http://nitro.woorockets.com/niche-21",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-21_sample_data.zip",
+		"tags": ["single-product"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-21/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-21/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-21/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-21/about.jpg"
+			},
+			"contact": {
+				"name": "Contact us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-21/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-21/contact.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-20",
+		"name": "Citiz Market",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-20.jpg",
+		"demo": "http://nitro.woorockets.com/niche-20",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-20_sample_data.zip",
+		"tags": ["wholesales"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-20/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-20/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-20/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-20/about.jpg"
+			},
+			"contact": {
+				"name": "Contact us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-20/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-20/contact.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-18",
+		"name": "Brasity",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-18.jpg",
+		"demo": "http://nitro.woorockets.com/niche-18",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-18_sample_data.zip",
+		"tags": ["fashion"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-18/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-18/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-18/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-18/about.jpg"
+			},
+			"contact": {
+				"name": "Contact us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-18/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-18/contact.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-13",
+		"name": "Pet Accessories",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-13.jpg",
+		"demo": "http://nitro.woorockets.com/niche-13",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-13_sample_data.zip",
+		"tags": ["accessories"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-13/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-13/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-13/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-13/about.jpg"
+			},
+			"contact": {
+				"name": "Contact us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-13/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-13/contact.jpg"
+			},
+			"sale": {
+				"name": "Sale",
+				"download": "http://www.woorockets.com/files/sampledata/niche-13/sale.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-13/sale.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-15",
+		"name": "Sports Equipment",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-15.jpg",
+		"demo": "http://nitro.woorockets.com/niche-15",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-15_sample_data.zip",
+		"tags": ["sport"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-15/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-15/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-15/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-15/about.jpg"
+			},
+			"contact": {
+				"name": "Contact us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-15/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-15/contact.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-24",
+		"name": "WatchMatch",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-24.jpg",
+		"demo": "http://nitro.woorockets.com/niche-24",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-24_sample_data.zip",
+		"tags": ["beauty"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-24/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-24/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-24/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-24/about.jpg"
+			},
+			"clearance": {
+				"name": "Clearance",
+				"download": "http://www.woorockets.com/files/sampledata/niche-24/clearance.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-24/clearance.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-23",
+		"name": "Digibits",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-23.jpg",
+		"demo": "http://nitro.woorockets.com/niche-23",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-23_sample_data.zip",
+		"tags": ["beauty"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-23/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-23/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-23/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-23/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-23/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-23/contact.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-22",
+		"name": "Venus",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-22.jpg",
+		"demo": "http://nitro.woorockets.com/niche-22",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-22_sample_data.zip",
+		"tags": ["beauty"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-22/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-22/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-22/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-22/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-22/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-22/contact.jpg"
+			},
+			"sales": {
+				"name": "Sales",
+				"download": "http://www.woorockets.com/files/sampledata/niche-22/sales.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-22/sales.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-07",
+		"name": "Glasia",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-07.jpg",
+		"demo": "http://nitro.woorockets.com/niche-07",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-07_sample_data.zip",
+		"tags": ["fashion"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-07/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-07/home.jpg"
+			},
+			"our-stories": {
+				"name": "Our Stories",
+				"download": "http://www.woorockets.com/files/sampledata/niche-07/our-stories.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-07/our-stories.jpg"
+			},
+			"store-location": {
+				"name": "Store Location",
+				"download": "http://www.woorockets.com/files/sampledata/niche-07/store-location.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-07/store-location.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-16",
+		"name": "Organia",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-16.jpg",
+		"demo": "http://nitro.woorockets.com/niche-16",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-16_sample_data.zip",
+		"tags": ["food & drink"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-16/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-16/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-16/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-16/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-16/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-16/contact.jpg"
+			},
+			"sales": {
+				"name": "Sales",
+				"download": "http://www.woorockets.com/files/sampledata/niche-16/sales.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-16/sales.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-05",
+		"name": "Mondo",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-05.jpg",
+		"demo": "http://nitro.woorockets.com/niche-05",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-05_sample_data.zip",
+		"tags": ["decor & furniture"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-05/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-05/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-05/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-05/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-05/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-05/contact.jpg"
+			},
+			"sales": {
+				"name": "Sales",
+				"download": "http://www.woorockets.com/files/sampledata/niche-05/sales.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-05/sales.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-06",
+		"name": "Medisene",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-06.jpg",
+		"demo": "http://nitro.woorockets.com/niche-06",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-06_sample_data.zip",
+		"tags": ["health"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-06/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-06/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-06/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-06/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-06/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-06/contact.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-09",
+		"name": "Fashion Store",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-09.jpg",
+		"demo": "http://nitro.woorockets.com/niche-09",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-09_sample_data.zip",
+		"tags": ["fashion"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-09/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-09/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-09/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-09/about.jpg"
+			},
+			"sales": {
+				"name": "Sales",
+				"download": "http://www.woorockets.com/files/sampledata/niche-09/sales.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-09/sales.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-04",
+		"name": "Women Fashion",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-04.jpg",
+		"demo": "http://nitro.woorockets.com/niche-04",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-04_sample_data.zip",
+		"tags": ["fashion"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-04/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-04/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-04/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-04/about.jpg"
+			},
+			"sales": {
+				"name": "Sales",
+				"download": "http://www.woorockets.com/files/sampledata/niche-04/sales.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-04/sales.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-02",
+		"name": "Men Fashion",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-02.jpg",
+		"demo": "http://nitro.woorockets.com/niche-02",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-02_sample_data.zip",
+		"tags": ["fashion"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-02/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-02/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-02/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-02/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-02/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-02/contact.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-11",
+		"name": "Teen Fashion",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-11.jpg",
+		"demo": "http://nitro.woorockets.com/niche-11",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-11_sample_data.zip",
+		"tags": ["fashion"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-11/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-11/home.jpg"
+			},
+			"location": {
+				"name": "Location",
+				"download": "http://www.woorockets.com/files/sampledata/niche-11/location.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-11/location.jpg"
+			},
+			"sales": {
+				"name": "Sales",
+				"download": "http://www.woorockets.com/files/sampledata/niche-11/sales.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-11/sales.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-17",
+		"name": "Kid Fashion",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-17.jpg",
+		"demo": "http://nitro.woorockets.com/niche-17",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-17_sample_data.zip",
+		"tags": ["fashion"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-17/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-17/home.jpg"
+			},
+			"store-location": {
+				"name": "Store Location",
+				"download": "http://www.woorockets.com/files/sampledata/niche-17/store-location.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-17/store-location.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-12",
+		"name": "Jewelry / Accessories",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-12.jpg",
+		"demo": "http://nitro.woorockets.com/niche-12",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-12_sample_data.zip",
+		"tags": ["jewelry"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-12/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-12/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-12/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-12/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-12/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-12/contact.jpg"
+			},
+			"lookbook": {
+				"name": "Lookbook",
+				"download": "http://www.woorockets.com/files/sampledata/niche-12/lookbook.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-12/lookbook.jpg"
+			},
+			"testimonials": {
+				"name": "Testimonial",
+				"download": "http://www.woorockets.com/files/sampledata/niche-12/testimonials.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-12/testimonials.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-08",
+		"name": "Shoes",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-08.jpg",
+		"demo": "http://nitro.woorockets.com/niche-08",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-08_sample_data.zip",
+		"tags": ["fashion"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-08/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-08/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-08/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-08/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-08/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-08/contact.jpg"
+			},
+			"sales": {
+				"name": "Sales",
+				"download": "http://www.woorockets.com/files/sampledata/niche-08/sales.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-08/sales.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-03",
+		"name": "Electronic Gadgets",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-03.jpg",
+		"demo": "http://nitro.woorockets.com/niche-03",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-03_sample_data.zip",
+		"tags": ["electronics"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-03/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-03/home.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-03/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-03/contact.jpg"
+			},
+			"sales": {
+				"name": "Sales",
+				"download": "http://www.woorockets.com/files/sampledata/niche-03/sales.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-03/sales.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-01",
+		"name": "Bakery / Coffee Shop",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-01.jpg",
+		"demo": "http://nitro.woorockets.com/niche-01",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-01_sample_data.zip",
+		"tags": ["food & drink"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-01/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-01/home.jpg"
+			},
+			"menu": {
+				"name": "Menu",
+				"download": "http://www.woorockets.com/files/sampledata/niche-01/menu.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-01/menu.jpg"
+			},
+			"reservations": {
+				"name": "Reservations",
+				"download": "http://www.woorockets.com/files/sampledata/niche-01/reservations.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-01/reservations.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-19",
+		"name": "Book Author",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-19.jpg",
+		"demo": "http://nitro.woorockets.com/niche-19",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-19_sample_data.zip",
+		"tags": ["book & novel"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-19/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-19/home.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-19/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-19/contact.jpg"
+			},
+			"author": {
+				"name": "Author",
+				"download": "http://www.woorockets.com/files/sampledata/niche-19/author.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-19/author.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-10",
+		"name": "Decor / Furniture",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-10.jpg",
+		"demo": "http://nitro.woorockets.com/niche-10",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-10_sample_data.zip",
+		"tags": ["decor"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-10/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-10/home.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-10/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-10/contact.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-10/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-10/about.jpg"
+			},
+			"collection": {
+				"name": "Collection",
+				"download": "http://www.woorockets.com/files/sampledata/niche-10/collection.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-10/collection.jpg"
+			}
+		}
+	},
+	{
+		"id": "niche-14",
+		"name": "Sport Gears",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/niche-14.jpg",
+		"demo": "http://nitro.woorockets.com/niche-14",
+		"download": "http://www.woorockets.com/files/sampledata/nitro_niche-14_sample_data.zip",
+		"tags": ["sport"],
+		"main": false,
+		"sample-page": {
+			"home": {
+				"name": "Home",
+				"download": "http://www.woorockets.com/files/sampledata/niche-14/home.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-14/home.jpg"
+			},
+			"about": {
+				"name": "About us",
+				"download": "http://www.woorockets.com/files/sampledata/niche-14/about.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-14/about.jpg"
+			},
+			"contact": {
+				"name": "Contact",
+				"download": "http://www.woorockets.com/files/sampledata/niche-14/contact.xml",
+				"thumbail": "http://www.woorockets.com/files/sampledata/niche-14/contact.jpg"
+			}
+		}
+	},
+	{
+		"name": "Suggest Demo",
+		"thumbail": "http://www.woorockets.com/files/sampledata/screenshot/demo-suggestion.jpg",
+		"demo": "http://www.woorockets.com/contact",
+		"text": "Suggest",
+		"main": false
+	}
+]

@@ -1,0 +1,118 @@
+/*	[ Product categories ]
+- - - - - - - - - - - - - - - - - - - - */
+.sc-product-cat {
+	display: table;
+	margin: auto;
+	img {
+		@extend %width-100;
+		@extend %opacity-1;
+	}
+	.sc-product-cat:hover img {
+		opacity: 0.7;
+	}
+	> div {
+		bottom: 20px;
+		padding: 10px;
+		left: 0;
+		right: 0;
+		width: 70%;
+		margin: 0 auto;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	}
+	> div a {
+		font-size: 14px;
+	}
+	> div .count {
+		font-size: 10px;
+	}
+}
+.sc-cat-list {
+	ul {
+		list-style: none;
+		li {
+			position: relative;
+			a {
+				padding: 7px 10px;
+				border-left: 2px solid transparent;
+				display: block;
+				margin: 0;
+				border-bottom: 1px solid;
+			}
+			ul {
+				position: absolute;
+				left: 100%;
+				width: 250px;
+				top: 0;
+				padding-left: 0;
+				opacity: 0;
+				border: 1px solid;
+				border-bottom: 0;
+				visibility: hidden;
+				transition: all .3s;
+				margin-left: -2px;
+				border-left: 2px solid;
+				z-index: 1000;
+				background: #fff;
+				margin-top: -1px;
+				max-height: 100vh;
+				overflow: auto;
+				li {
+					a {
+						padding: 13px;
+						border-left: 0;
+						img {
+							display: none;
+						}
+					}
+				}
+			}
+			&:hover > ul {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+	.title {
+		padding: 13px 20px;
+	}
+	.title,
+	.title:hover {
+		color: #fff;
+
+	}
+}
+.wr-mobile .sc-cat-list {
+	.sc-cat-mobile {
+		right: 0;
+		width: 30px;
+		height: 48px;
+		line-height: 48px;
+		font-size: 20px;
+		text-align: center;
+		top: 0;
+		&.expanded:before {
+			content: "\f106";
+		}
+	}
+	ul ul {
+		position: relative;
+		opacity: 1;
+		left: 0;
+		width: 100%;
+		border: 0;
+		visibility: visible;
+		padding-left: 20px;
+		margin: 0;
+		display: none;
+		li {
+			a {
+				img {
+					display: inline-block;
+				}
+			}
+		}
+		&.expanded {
+			display: block;
+		}
+	}
+}

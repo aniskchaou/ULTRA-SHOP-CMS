@@ -1,0 +1,173 @@
+/*	[ Icon box ]
+- - - - - - - - - - - - - - - - - - - - */
+.nitro-services {
+	&.sep h4 {
+		position: relative;
+	}
+	&.character h4 {
+		margin: 0 0 20px;
+	}
+	&.character .more {
+		display: table;
+		margin-top: 15px;
+	}
+	&.tc .more {
+		margin: 15px auto 0;
+	}
+	&.tr {
+		overflow: hidden;
+	}
+	&.tr .more {
+		float: right;
+		margin-top: 5px;
+	}
+	&.character h4:before,
+	&.character h4:after,
+	.sep-icon:before,
+	.sep-icon:after,
+	.sep-icon span:before {
+		content: '';
+		position: absolute;
+	}
+	&.sep.character h4:before,
+	&.sep.character.tc h4:after {
+		height: 1px;
+		width: 48px;
+		top: 50%;
+	}
+	&.sep.character.tl {
+		padding-left: 68px !important;
+	}
+	&.sep.character.tl h4:before {
+		left: -68px;
+	}
+	&.sep.character.tc h4 {
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	&.sep.character.tc h4:before {
+		left: -58px;
+	}
+	&.sep.character.tc h4:after {
+		right: -58px;
+	}
+	&.sep.character.tr {
+		padding-right: 68px !important;
+	}
+	&.sep.character.tr h4:before {
+		right: -68px;
+	}
+	&.icon h4,
+	&.image h4 {
+		margin-top: 0;
+	}
+	&.icon {
+		.icon-wrap.left {
+			float: left;
+			margin-right: 15px;
+		}
+		.icon-wrap.left + .content,
+		.icon-wrap.right + .content {
+			overflow: hidden;
+		}
+		.icon-wrap.right + .content {
+			text-align: right;
+		}
+		.icon-wrap.left + .content h4,
+		.icon-wrap.right + .content h4 {
+			margin: 0 0 12px;
+		}
+		.icon-wrap.right {
+			margin-left: 15px;
+		}
+		.large {
+			@include btn-square(80px);
+		}
+		.medium {
+			@include square(64px);
+			line-height: 67px;
+		}
+		.small {
+			@include btn-square(48px);
+		}
+		.circle {
+			border-radius: 50%;
+		}
+		&.tc div {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		&.tc.sep .content p {
+			padding-top: 20px;
+		}
+		.icon-wrap.right {
+			@extend %float-right;
+		}
+		.icon-wrap.left,
+		&.tl div {
+			@extend %float-left;
+		}
+	}
+	.sep-icon {
+		margin: auto;
+	}
+	.sep-icon span:before {
+		@include rotate(45deg);
+		@include square(7px);
+		top: -10px;
+	}
+	.sep-icon:before,
+	&.tc .sep-icon:after {
+		width: 12px;
+		height: 1px;
+		top: -7px;
+	}
+	&.tc .sep-icon span:before {
+		left: -3.5px;
+	}
+	&.tc .sep-icon:before {
+		left: -19px;
+	}
+	&.tc .sep-icon:after {
+		right: -20px;
+	}
+	&.tl .sep-icon:before {
+		right: -23px;
+	}
+	&.tr .sep-icon span:before {
+		right: 1px;
+	}
+	&.tr .sep-icon:before {
+		right: 12px;
+	}
+	.sep-icon + p {
+		padding-top: 10px;
+	}
+	&.tl {
+		overflow: hidden;
+	}
+	&.tc > p {
+		padding: 0 20px;
+	}
+	&.tr .icon-wrap.right {
+		margin-left: 20px;
+	}
+	&.tl .icon-wrap.left {
+		margin-right: 20px;
+	}
+	.icon-wrap.left + .content h4,
+	.icon-wrap.right + .content h4 {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	&.tl .icon-wrap.left.large + .content {
+		@include calc(width, '100% - 100px');
+	}
+	&.tl .icon-wrap.left.medium + .content {
+		@include calc(width, '100% - 84px');
+	}
+	&.tl .icon-wrap.left.small + .content {
+		@include calc(width, '100% - 68px');
+	}
+}

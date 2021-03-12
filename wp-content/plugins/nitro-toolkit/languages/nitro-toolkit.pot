@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nitro Toolkit\n"
+"POT-Creation-Date: 2017-01-10 15:07+0700\n"
+"PO-Revision-Date: 2017-01-10 15:07+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: nitro-toolkit.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/post-type.php:37 includes/post-type.php:38
+#: includes/post-type.php:39 includes/post-type.php:40
+msgid "Header"
+msgstr ""
+
+#: includes/post-type.php:41
+msgid "Add New"
+msgstr ""
+
+#: includes/post-type.php:42
+msgid "Add New header"
+msgstr ""
+
+#: includes/post-type.php:43
+msgid "New header"
+msgstr ""
+
+#: includes/post-type.php:44
+msgid "Edit header"
+msgstr ""
+
+#: includes/post-type.php:45
+msgid "View header"
+msgstr ""
+
+#: includes/post-type.php:46
+msgid "Header Builder"
+msgstr ""
+
+#: includes/post-type.php:47
+msgid "Search header"
+msgstr ""
+
+#: includes/post-type.php:48
+msgid "Parent header:"
+msgstr ""
+
+#: includes/post-type.php:49
+msgid "No header found."
+msgstr ""
+
+#: includes/post-type.php:50
+msgid "No header found in Trash."
+msgstr ""
+
+#: includes/shortcode/heading.php:77 includes/shortcode/heading.php:78
+#: includes/shortcode/heading.php:79 includes/shortcode/heading.php:353
+#: includes/shortcode/heading.php:364 includes/shortcode/heading.php:372
+msgid "This is custom heading element"
+msgstr ""
+
+#: includes/shortcode/pricing-single.php:118
+msgid "Purchase"
+msgstr ""
+
+#: includes/shortcode/product-category.php:87
+msgid "Items"
+msgstr ""
+
+#: includes/shortcode/separator.php:303
+msgid "Separator."
+msgstr ""
+
+#: includes/shortcode/services.php:377
+msgid "Read more."
+msgstr ""
+
+#: includes/shortcode/services.php:420 includes/shortcode/services.php:441
+msgid "Read more"
+msgstr ""
+
+#: includes/shortcode/services.php:429
+msgid "Separator"
+msgstr ""
+
+#: includes/shortcode/testimonial.php:170
+#: includes/shortcode/testimonial.php:180
+#: includes/shortcode/testimonial.php:211
+msgid "Avatar"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Nitro Toolkit"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.woorockets.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Nitro toolkit for Nitro theme. Currently supports the following theme "
+"functionality: shortcodes, CPT."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WooRockets Team <support@www.woorockets.com>"
+msgstr ""

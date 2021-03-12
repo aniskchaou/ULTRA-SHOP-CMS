@@ -1,0 +1,51 @@
+/*	[ Separator]
+- - - - - - - - - - - - - - - - - - - - */
+.nitro-separator {
+	&.tc {
+		margin: auto;
+		div:before,
+		div:after {
+			height: 1px;
+			width: 100%;
+		}
+		&.double div:before,
+		&.double div:after {
+			background: none;
+		}
+		.sep-left,
+		div:before {
+			left: 0;
+		}
+		.sep-right,
+		div:after {
+			right: 0;
+		}
+		.sep-left,
+		div:before,
+		.sep-right,
+		div:after {
+			@extend %translateY-50;
+			top: 50%;
+		}
+	}
+	&.thin div {
+		height: 1px;
+	}
+	div:before,
+	div:after {
+		content: "";
+		position: absolute;
+	}
+	&.bold div,
+	&.pattern div,
+	&.tc.bold div:before,
+	&.tc.bold div:after {
+		height: 3px;
+	}
+	&.double div {
+		padding: 1px 0;
+	}
+	&.pattern div {
+		background: url(../images/sep-pattern.png) repeat-x;
+	}
+}

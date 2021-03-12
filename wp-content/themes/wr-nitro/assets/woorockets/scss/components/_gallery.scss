@@ -1,0 +1,497 @@
+// Extend Class
+%right-10 {
+	@include calc(right, '100% - -10px');
+	opacity: 1;
+	visibility: visible;
+}
+%right-30 {
+	@include calc(right, '100% - -30px');
+}
+
+/*	[ Gallery - Archive ]
+- - - - - - - - - - - - - - - - - - - - */
+.galleries {
+	> .row {
+		@include transition(height 0.8s);
+		padding-bottom: 100px;
+	}
+	h3 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.item.last {
+		clear: both;
+	}
+	.grid .item-inner {
+		padding: 10px;
+	}
+	.owl-nav > div {
+		@include square( 50px );
+		padding: 0;
+		background: rgba(255, 255, 255, .65);
+		font-size: 28px;
+		line-height: 46px;
+		&:hover {
+			background: #fff;
+		}
+	}
+	.cat-title {
+		background: rgba(255, 255, 255, .65);
+		color: #222;
+		padding: 4px 30px;
+		bottom: -40px;
+		left: 20px;
+	}
+	.owl-item:hover .cat-title {
+		bottom: 20px;
+	}
+	.inside {
+		figcaption {
+			@extend %transition;
+			@include absolute($top: 15px, $right: 15px, $bottom: 15px, $left: 15px);
+			overflow: hidden;
+			margin: 0;
+			background: rgba(0, 0, 0, .6);
+			opacity: 0;
+			padding: 0 20px;
+			pointer-events: none;
+			z-index: 1;
+		}
+		> figure:hover figcaption {
+			@extend %opacity-1;
+		}
+		.title * {
+			color: #fff;
+		}
+		.hentry {
+			.title {
+				@include translateX(20px);
+				bottom: 20px;
+				position: absolute;
+				opacity: 0;
+				h5 {
+					margin: 0 0 10px;
+					a {
+						color: #fff;
+					}
+				}
+			}
+			&:hover .title {
+				@extend %opacity-1;
+				@extend %translateX-0;
+			}
+		}
+	}
+	.wr-nitro-carousel .owl-dots {
+		@extend %translateX-50;
+		@include absolute($bottom: 10px, $left: 50%);
+	}
+	.hentry {
+		margin: 0;
+		.mask img {
+			@extend %width-100;
+		}
+		.mask.wr-nitro-carousel .gallery-item {
+			position: relative;
+		}
+		.mask:not(.wr-nitro-carousel):after,
+		.mask.wr-nitro-carousel .gallery-item:after {
+			@extend %transition;
+			@include square(100%);
+			background: rgba(0, 0, 0, 0.6);
+			left: 0;
+			top: 0;
+			opacity: 0;
+			z-index: 0;
+			pointer-events: none;
+		}
+		&:hover {
+			.mask:after,
+			.mask.wr-nitro-carousel .gallery-item:after {
+				@extend %opacity-1;
+			}
+			.action a:first-child {
+				@extend %transition;
+			}
+		}
+		.title {
+			h5 {
+				margin: 15px 0 5px;
+				line-height: 1.5em;
+			}
+			.cat,
+			.cat a {
+				font-size: 12px;
+				font-style: italic;
+				color: #fff !important;
+			}
+			.cat {
+				margin-bottom: 15px;
+			}
+		}
+		.action span,
+		.thumb .mask a span {
+			@extend %transition;
+		}
+		.action span {
+			@extend %right-30;
+		}
+		.action a:hover span {
+			@extend %right-10;
+		}
+		.mask:not(.wr-nitro-carousel):after,
+		.mask.wr-nitro-carousel .gallery-item:after {
+			content: "";
+			position: absolute;
+		}
+		figcaption > * {
+			z-index: 10;
+		}
+		.thumb:hover .mask a {
+			@include translate-0;
+			opacity: 1;
+		}
+	}
+	.external_link {
+		@extend %transition;
+		@include absolute($top: 50%, $left: 50%);
+		@include translate(-50%, -70%);
+		display: inline-block;
+		background-color: #fff;
+		height: 38px;
+		line-height: 38px;
+		padding: 0 25px;
+		opacity: 0;
+		border-radius: 40px;
+		z-index: 11;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: bold;
+	}
+	.gallery-type-external:hover .external_link {
+		@extend %translate-50;
+		@extend %opacity-1;
+	}
+	.grid .hentry:first-child {
+		clear: none;
+	}
+}
+.nitro-gallery {
+	.item img,
+	figure img {
+		@extend %width-100;
+	}
+}
+.gallery-type-external {
+	.entry-thumb {
+		.mask {
+			min-height: 100px;
+		}
+		img {
+			@include center-block;
+			width: auto !important;
+		}
+	}
+}
+
+
+.gallery-cat {
+	padding: 0 0 30px;
+}
+.filter-on-mobile,
+.tax-gallery_cat .gallery-cat {
+	@extend %display-none;
+}
+.vc_row {
+	.gallery-cat {
+		padding: 50px 15px 45px;
+		a {
+			margin-right: 25px;
+			cursor: pointer;
+		}
+	}
+	.sc-gallery {
+		padding: 0 15px;
+	}
+}
+
+.nitro-carousel {
+ 	.sc-gallery,
+	.galleries > .row {
+		padding: 0;
+		margin: 0;
+	}
+}
+.nitro-gallery > div a > span.pa,
+.gallery-list .item > span.pa {
+	@extend %translateY-50;
+	color: #fff;
+	line-height: 20px;
+	font-size: 12px;
+	top: 50%;
+	width: 100%;
+}
+.nitro-gallery > div a > span.pa > span,
+.gallery-list .item > span.pa > span {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+/*	[ Gallery - Single ]
+- - - - - - - - - - - - - - - - - - - - */
+.single-gallery {
+	.content p {
+		margin-top: 20px;
+	}
+	.hentry {
+		.thumb {
+			.mask {
+				right: 20px;
+				top: 20px;
+				z-index: 10;
+				a {
+					@include translateX(50px);
+					color: #2a2a2a;
+					margin-bottom: 2px;
+					opacity: 0;
+					background: #fff;
+					z-index: 1;
+					&:hover {
+						color: $primary-color;
+					}
+					&:hover span {
+						@extend %right-10;
+					}
+				}
+				a span {
+					@extend %transition;
+					@extend %right-30;
+				}
+				span:after {
+					content: "";
+					position: absolute;
+				}
+			}
+			&:hover .mask a {
+				@include translate-0;
+				opacity: 1;
+			}
+		}
+	}
+	article {
+		> .row > h4 {
+			margin: 0 0 20px;
+		}
+		.grid {
+			overflow: hidden;
+		}
+	}
+	.info {
+		list-style: none;
+		margin: 0;
+		.left {
+			width: 130px;
+		}
+		.tl {
+			width: 132px;
+			color: #252525;
+		}
+	}
+	.social-share {
+		position: static;
+		li {
+			float: left;
+		}
+	}
+	.related-gallery .related {
+		@include calc(width, '100% - -30px');
+		.hentry {
+			@extend %width-100;
+		}
+	}
+	.horizontal {
+		.wr-nitro-horizontal {
+			overflow: hidden;
+			height: 500px;
+			.owl-dots {
+				@extend %translateX-50;
+				@include absolute($bottom: 0, $left: 50%);
+				> div span {
+					border: none;
+				}
+			}
+		}
+		.item img {
+			width: auto;
+			max-height: 500px;
+		}
+		.gallery-list .item {
+			margin-top: 0;
+		}
+	}
+}
+.gallery-fullscreen {
+	.single-full {
+		@include fixed($top: 0, $left: 0);
+		@include square(100%);
+	}
+	.single-gallery {
+		margin: 0;
+	}
+	.gallery-cover,
+	.single-gallery .item {
+		@include size(100%, 100vh);
+		@include absolute($top: 0, $left: 0);
+	}
+	.single-gallery {
+		.item {
+			background-size: cover !important;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
+		.active .item,
+		.animated .item {
+			@include animation(imageAnimation 36s linear infinite 0s);
+			@include backface-visibility(hidden);
+		}
+		.actions {
+			bottom: 20px;
+			right: 20px;
+			background: #fff;
+			border-radius: 3px;
+			padding: 10px 10px 9px 10px;
+			z-index: 999;
+			> a {
+				color: #222;
+				font-size: 14px;
+				padding: 0 10px;
+				> .tooltip {
+					@extend %translateX-50;
+					left: 50%;
+					top: -45px;
+					color: #fff;
+				}
+				&:hover > .tooltip {
+					@include visible;
+					top: -55px;
+				}
+			}
+		}
+		.nav-thumb {
+			@include absolute($bottom: 20px, $left: 20px);
+			z-index: 999;
+			width: 350px;
+			overflow: hidden;
+			.owl-item {
+				@extend %transition;
+				padding: 0 5px;
+				border-radius: 3px;
+				cursor: crosshair;
+				opacity: .4;
+				&.current,
+				&:hover {
+					@extend %opacity-1;
+				}
+			}
+		}
+	}
+	.wr-nitro-carousel .owl-nav > div {
+		top: 50%;
+		padding: 0 15px;
+		height: 50px;
+		margin-top: -25px;
+		background: #fff;
+		color: #222;
+		border-radius: 3px;
+		font-size: 30px;
+	}
+	.images-cover .owl-stage-outer,
+	.wr-nitro-carousel .owl-stage-outer {
+		overflow: initial;
+	}
+	.header-outer,
+	.footer {
+		@extend %display-none;
+	}
+}
+.related-gallery {
+	.hentry {
+		margin: 0;
+		padding: 0 15px;
+	}
+	.related {
+		margin: 0 -15px;
+	}
+}
+.single .gallery-list .item:hover img {
+	@extend %opacity-1;
+}
+.single .gallery-list:hover .item img {
+	opacity: .5;
+}
+.fadeIn  {
+	@include animation-name( fadeIn );
+}
+.fadeOut  {
+	@include animation-name( fadeOut );
+}
+.slideInUp {
+	@include animation-name( slideInUp );
+}
+.slideOutUp {
+	@include animation-name( slideOutUp );
+}
+
+// Keyframes
+@include keyframes(fadeIn) {
+	0% {
+		opacity : 0;
+	}
+	100% {
+		opacity : 1;
+	}
+};
+
+@include keyframes(fadeOut) {
+	0% {
+		opacity : 1;
+	}
+	100% {
+		opacity : 0;
+	}
+};
+
+@include keyframes(imageAnimation) {
+	0% {
+		@include scale(1);
+	}
+	50% {
+		@include transform(scale(1.1) rotate(3deg));
+	}
+	100% {
+		@include transform(scale(1.2) rotate(5deg));
+	}
+};
+
+@include keyframes(slideInUp) {
+	from {
+		@include translate3d(0, 100%, 0);
+		visibility: visible;
+	}
+
+	to {
+		@include translate-0;
+	}
+};
+
+@include keyframes(slideOutUp) {
+	from {
+		@include translate-0;
+	}
+
+	to {
+		visibility: hidden;
+		@include translate3d(0, -100%, 0);
+	}
+};

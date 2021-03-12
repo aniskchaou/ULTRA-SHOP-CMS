@@ -1,0 +1,57 @@
+/*	[ Nivo lightbox ]
+- - - - - - - - - - - - - - - - - - - - */
+.nivo-lightbox-theme-default {
+	.nivo-lightbox-image img {
+		background: none;
+		box-shadow: none;
+	}
+	.nivo-lightbox-next,
+	.nivo-lightbox-prev {
+		@include btn-square(100px);
+		display: inline-block;
+		font-size: 0;
+		text-indent: -999em;
+		opacity: 1;
+		background: none;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	.nivo-lightbox-nav {
+		&:hover {
+			background: none;
+			&:before {
+				opacity: 1;
+			}
+		}
+		&:before {
+			@extend %transition;
+			font-size: 50px;
+			font-family: "FontAwesome";
+			opacity: 0.5;
+		}
+	}
+	.nivo-lightbox-prev:before,
+	.nivo-lightbox-next:before {
+		text-indent: 0;
+		display: block;
+	}
+	.nivo-lightbox-prev:before {
+		content: "\f104";
+		margin-left: 30px;
+	}
+	.nivo-lightbox-next:before {
+		content: "\f105";
+		float: right;
+		margin-right: 30px;
+	}
+	&.nivo-lightbox-overlay:hover {
+		cursor: url(../images/close.png), auto;
+	}
+	.nivo-lightbox-close {
+		display: none;
+	}
+}
+.nivo-lightbox-image img:hover {
+	cursor: auto;
+}

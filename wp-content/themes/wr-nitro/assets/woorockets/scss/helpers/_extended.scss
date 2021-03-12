@@ -1,0 +1,226 @@
+/*	[ Extended Classes ]
+- - - - - - - - - - - - - - - - - - - - */
+%container {
+	max-width: 1170px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+%opacity-0 {
+	opacity: 0;
+}
+%opacity-1 {
+	opacity: 1;
+}
+%hidden {
+	@include hidden;
+}
+%visible {
+	@include visible;
+}
+%width-100 {
+	width: 100%;
+}
+%full-100 {
+	display: block;
+	@include absolute($top: 0, $left: 0);
+	@include square(100%);
+}
+%full-screen {
+	@include fixed($top: 0, $left: 0);
+	@include square(100%);
+}
+%center-position {
+	@include center-position;
+}
+%transition {
+	@include transition(.3s all);
+}
+%display-none {
+	display: none;
+}
+%display-block {
+	display: block;
+}
+%float-left {
+	float: left;
+}
+%float-right {
+	float: right;
+}
+%text-left {
+	text-align: left;
+}
+%text-right {
+	text-align: right;
+}
+%text-center {
+	text-align: center;
+}
+%translate-50 {
+	@include translate(-50%, -50%);
+}
+%translateX-50 {
+	@include translateX(-50%);
+}
+%translateY-50 {
+	@include translateY(-50%);
+}
+%translateX-0 {
+	@include translateX(0);
+}
+%translateY-0 {
+	@include translateY(0);
+}
+%scale-0 {
+	@include scale(0);
+}
+%scale-1 {
+	@include scale(1);
+}
+%icon-font {
+	font-family: FontAwesome;
+}
+
+/*	[ Flex layout ]
+- - - - - - - - - - - - - - - - - - - - */
+%fc {
+	display: -ms-flexbox;
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+}
+%fcw {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+%fcnw {
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-flex-wrap: nowrap;
+}
+%fcwr {
+	-ms-flex-wrap: wrap-reverse;
+	flex-wrap: wrap-reverse;
+	-webkit-flex-wrap: wrap-reverse;
+}
+%fcrr {
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+	-webkit-flex-direction: row-reverse;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+}
+%fcc {
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+}
+%fccr {
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+	-webkit-flex-direction: column-reverse;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+}
+%aic {
+	-ms-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+}
+%aife {
+	-ms-align-items: flex-end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-align-items: flex-end;
+	-webkit-box-align: end;
+}
+%aib {
+	-ms-align-items: baseline;
+	-ms-flex-align: baseline;
+	align-items: baseline;
+	-webkit-align-items: baseline;
+	-webkit-box-align: baseline;
+}
+%aifs {
+	-ms-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-align-items: flex-start;
+	-webkit-box-align: start;
+}
+%jcc {
+	-ms-justify-content: center;
+	-ms-flex-pack: distribute;
+	justify-content: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+}
+%jcsa {
+	justify-content: space-around;
+	-ms-justify-content: space-around;
+	-ms-flex-pack: distribute;
+	-webkit-justify-content: space-around;
+}
+%jcsb {
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	-ms-flex-pack: justify;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+}
+%jcfe {
+	-ms-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+%jcfs {
+	-ms-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+%acfs {
+	-ms-align-content: flex-start;
+	-ms-flex-line-pack: start;
+	align-content: flex-start;
+	-webkit-align-content: flex-start;
+}
+%acc {
+	-ms-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-align-content: center;
+}
+%acfe {
+	-ms-align-content: flex-end;
+	-ms-flex-line-pack: end;
+	align-content: flex-end;
+	-webkit-align-content: flex-end;
+}
+%acsa {
+	-ms-align-content: space-around;
+	-ms-flex-line-pack: distribute;
+	align-content: space-around;
+	-webkit-align-content: space-around;
+}
+%acsb {
+	-ms-align-content: space-between;
+	-ms-flex-line-pack: justify;
+	align-content: space-between;
+	-webkit-align-content: space-between;
+}
+%grow {
+	flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	-webkit-box-flex: 1;
+}

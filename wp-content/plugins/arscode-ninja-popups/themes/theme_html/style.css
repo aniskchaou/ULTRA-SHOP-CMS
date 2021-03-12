@@ -1,0 +1,170 @@
+.snp-theme-html {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    position: relative;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: normal;
+    /*text-align: center;*/
+    color: #000;
+    background-color: #fff;
+    overflow: auto;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	top:0;
+	left:0;
+}
+
+.snp-fb .snp-theme-html{
+width:80%;height:100%;margin:0 auto;
+}
+.snp-theme-html .snp-share {
+    display: inline-block;
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+.snp-theme-html .snp-share-gp {
+    width: 69px;
+}
+
+.snp-theme-html .snp-share-gp div {
+    display: block !important;
+}
+
+.snp-theme-html .snp-share-tw {
+    width: 90px;
+}
+
+.snp-theme-html .snp-share-pi img {
+    vertical-align: top;
+}
+
+
+.snp-theme-html .snp-subscribe-social {
+    text-align: center;
+    line-height: 30px;
+}
+
+.snp-theme-html .snp-subscribe fieldset {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background: rgba(0,0,0,0.45);
+    padding: 10px;
+    text-align: center;
+}
+
+.snp-theme-html .snp-powered {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    bottom: -36px;
+    height: 46px;
+    padding: 10px 35px 0;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 36px;
+    background: #182945;
+    color: #fff;
+}
+.snp-theme-html .snp-content {
+	}
+
+.snp-theme-html .snp-content-inner {
+    padding: 5px;
+}
+
+.snp-theme-html .snp-field {
+    min-width: 212px;
+    margin-right: 10px;
+    float: left;
+    border: 0;
+    background: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    line-height: 15px;
+    height: 31px;
+    padding: 8px 14px 8px 46px;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.snp-theme-html .snp-field-name {
+    background: #fff url(gfx/input-name.png) no-repeat 0 50%;
+}
+
+.snp-theme-html .snp-field-email {
+    background: #fff url(gfx/input-email.png) no-repeat 0 50%;
+}
+
+
+.snp-theme-html .snp-error {
+    color: #CC0000 !important;
+    border: 1px solid #CC0000 !important;
+}
+
+.snp-theme-html .snp-subscribe fieldset
+{
+    display: inline-block;
+}
+
+.snp-theme-html .snp-subscribe-button {
+    display: block;
+    /*padding: 0;*/
+    margin: 0;
+    border: 0;
+    background: #a5cd28;
+    background-image: -webkit-linear-gradient(top, #345c9f 0, #182945 100%);
+    background-image: -moz-linear-gradient(top, #345c9f 0, #182945 100%);
+    background-image: -ms-linear-gradient(top, #345c9f 0, #182945 100%);
+    background-image: -o-linear-gradient(top, #345c9f 0, #182945 100%);
+    background-image: linear-gradient(top, #345c9f 0, #182945 100%);
+    text-align: center;
+    color:#fff;
+    font-size:14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 31px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-shadow: 1px 1px #596e18;
+}
+
+.snp-theme-html .snp-subscribe-button {
+    /*width: 136px;*/
+    padding: 0 15px;
+    float: left;
+}
+
+.snp-theme-html .snp-subscribe-button:active {
+    position: relative;
+    top: 2px;
+}
+
+.snp-theme-html .snp-privacy{
+    margin: 15px 15px;
+}
+
+.snp-theme-html .snp-privacy:before{
+    content: url(gfx/locker.png);
+    margin-right: 10px;
+    position: relative;
+    top:2px;
+    vertical-align: middle;
+    display: inline;
+}
+
+.snp-theme-html .snp-privacy span {
+    vertical-align:middle;
+}

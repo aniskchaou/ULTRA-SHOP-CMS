@@ -1,0 +1,161 @@
+.snp-newtheme2 {
+  border-bottom: 4px solid #0074ed;
+  background: #fff;
+  font-family: Arial;
+  font-weight: 400;
+  width: 660px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.snp-newtheme2 header {
+  background: #0074ed;
+  overflow: hidden;
+  text-align: center;
+  padding: 0 20px 40px;
+}
+.snp-newtheme2 header h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin: 19px 0;
+}
+.snp-newtheme2 header img {
+  max-width: 100%;
+  margin: 16px 0;
+}
+.snp-newtheme2 .snp-newsletter-content {
+  background: #ebebeb;
+  overflow: hidden;
+  margin: -40px 40px 0;
+  color: #959595;
+  position: relative;
+  padding: 20px 20px 0;
+}
+.snp-newtheme2 .snp-newsletter-content:before {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  left: 50%;
+  margin-left: -20px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid #0074ed;
+  border-left: 20px solid #ebebeb;
+  border-right: 20px solid #ebebeb;
+}
+.snp-newtheme2 .snp-newsletter-content h2 {
+  font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+  margin: 13px 0;
+}
+.snp-newtheme2 .snp-newsletter-content p {
+  text-align: center;
+  font-size: 12px;
+  margin: 12px 0;
+}
+.snp-newtheme2 .snp-newsletter-content p small {
+  font-size: 12px;
+}
+.snp-newtheme2 .snp-newsletter-content p img {
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 5px;
+}
+.snp-newtheme2 form input[type="text"],.snp-newtheme2 form select,.snp-newtheme2 form textarea,
+.snp-newtheme2 form input[type="text"]:focus,.snp-newtheme2 form select:focus,.snp-newtheme2 form textarea:focus{
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid transparent;
+  font-family: Arial, sans-serif;
+  background: transparent;
+  color: #959595;
+  background-color: #fff;
+  font-size: 14px;
+  border-top: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
+  text-align: left;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
+}
+.snp-newtheme2 form input[type="submit"] {
+  background: #f95549;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  display: block;
+  width: 200px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-box-shadow: 4px 4px 0 #d00f00;
+  -moz-box-shadow: 4px 4px 0 #d00f00;
+  box-shadow: 4px 4px 0 #d00f00;
+  border-radius: 0px;	
+  -moz-border-radius: 0px;	
+  -webkit-border-radius: 0px;	
+}
+.snp-newtheme2 form input[type="submit"]:hover {
+  -webkit-box-shadow: 0 0 0 #d00f00;
+  -moz-box-shadow: 0 0 0 #d00f00;
+  box-shadow: 0 0 0 #d00f00;
+}
+
+.snp-newtheme2 .snp-error {
+    color: #CC0000 !important;
+    border: 1px solid #CC0000 !important;
+}
+.snp-newtheme2 .snp-error::-webkit-input-placeholder { color: #CC0000; }
+.snp-newtheme2 input.snp-error:-moz-placeholder { color: #515151; }
+.snp-newtheme2 .snp-error.placeholder { color: #515151; }
+
+
+
+
+.snp-newtheme2 .snp-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background: url('../img/close.png') no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .snp-newtheme2 {
+    max-width: 460px !important;
+  }
+}
+@media (max-width: 460px) {
+  .snp-newtheme2 {
+    max-width: 100% !important;
+    width: auto !important;
+  }
+  .snp-newtheme2 header h2 {
+    margin-top: 45px;
+  }
+}
+.snp-pop-newtheme2-wrap .fancybox-close {
+    display: none;
+}

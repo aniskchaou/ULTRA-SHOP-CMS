@@ -1,0 +1,394 @@
+/**
+ * @version    1.0
+ * @package    Nitro
+ * @author     WooRockets Team <support@woorockets.com>
+ * @copyright  Copyright (C) 2014 WooRockets.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.woorockets.com
+ */
+/*	[ Reset browser ]
+- - - - - - - - - - - - - - - - - - - - */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+html {
+	overflow-x: hidden;
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	line-height: 1.625;
+	color: $text-color;
+}
+body.wr-mobile {
+	overflow-x: hidden;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+[hidden], template {
+	display: none;
+}
+a {
+	@extend %transition;
+	background-color: transparent;
+	text-decoration: none;
+	outline: 0;
+	color: $primary-color;
+}
+a:active,
+a:hover,
+a:focus {
+	outline: 0;
+}
+p {
+	margin: 0 0 10px;
+}
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+b,
+strong {
+	font-weight: 700;
+}
+dfn {
+	font-style: italic;
+}
+mark,
+ins {
+	background: #ff0;
+	color: #000;
+	text-decoration: none;
+}
+small {
+	font-size: 80%;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -.5em;
+}
+sub {
+	bottom: -.25em;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+	max-width: 100%;
+	height: auto;
+}
+svg:not(:root) {
+	overflow: hidden;
+}
+figure {
+	margin: 1em 40px;
+}
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+pre {
+	overflow: auto;
+	border: 1px solid #e2e2e2;
+	padding: 10px 20px;
+	border-radius: 2px;
+	margin: 20px 0;
+}
+code,
+kbd,
+pre,
+samp,
+pre,
+tt,
+var {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+dfn, cite, em, i {
+	font-style: italic;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+button {
+	overflow: visible;
+	border: 0;
+}
+button,
+select {
+	text-transform: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+select::-ms-expand {
+	display: none;
+}
+select:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #000;
+}
+select {
+	border: 1px solid $border-color;
+	height: 40px;
+	border-radius: 2px;
+	padding: 0 10px;
+	width: 100%;
+	background: url(../images/arrow_down.png) no-repeat calc(100% - 10px);
+}
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+	@extend %transition;
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+	cursor: not-allowed;
+	opacity: .7;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+input {
+	line-height: normal;
+	border: 1px solid $border-color;
+	height: 40px;
+	border-radius: 2px;
+	padding: 10px;
+	background: none;
+}
+input:not([type="radio"]):not([type="checkbox"]) {
+	-webkit-appearance: none;
+}
+input[type=checkbox],
+input[type=radio] {
+	box-sizing: border-box;
+	padding: 0;
+	height: auto;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	height: vauto;
+}
+input[type=search],
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+	outline: 0;
+}
+::-webkit-input-placeholder {
+	color: #b7b7b7;
+}
+:-moz-placeholder {
+	color: #b7b7b7;
+}
+::-moz-placeholder {
+	color: #b7b7b7;
+}
+:-ms-input-placeholder {
+	color: #b7b7b7;
+}
+fieldset {
+	border: 1px solid silver;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+legend {
+	border: 0;
+	padding: 0;
+}
+textarea {
+	overflow: auto;
+	border: 1px solid $border-color;
+	padding: 10px;
+	background: none;
+	-webkit-appearance: none;
+}
+optgroup {
+	font-weight: 700;
+}
+table,
+th,
+td {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	margin-bottom: 24px;
+	width: 100%;
+	text-align: left;
+}
+td,
+th {
+	padding: 6px;
+}
+td p,
+th p {
+	margin: 0;
+}
+th {
+	border-width: 0 1px 1px 0;
+	font-weight: bold;
+}
+td {
+	border-width: 0 1px 1px 0;
+}
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+blockquote {
+	border-left: 1px solid #e8e8e8;
+	padding: 10px 20px;
+}
+blockquote .author {
+	color: $text-color;
+}
+blockquote p {
+	margin: 0;
+}
+ul ul, ol ol {
+	padding-left: 15px;
+}
+li {
+	list-style: none;
+}
+dl {
+	margin: 0 0 1.75em;
+}
+dt {
+	font-weight: 700;
+}
+dd {
+	margin: 0 0 1.75em;
+}
+address {
+	font-style: italic;
+	margin: 0 0 1.75em;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #d1d1d1;
+	cursor: help;
+}
+*,
+:before,
+:after {
+	box-sizing: border-box;
+}
+.clear:before,
+.clear:after {
+	content: " ";
+	display: table;
+}
+.clear:after {
+	clear: both;
+}
+
+/*	[ Typography ]
+- - - - - - - - - - - - - - - - - - - - */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	color: $dark-color;
+	line-height: 100%;
+	margin: 10px 0;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+.heading-1 {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	position: relative;
+	line-height: inherit;
+}

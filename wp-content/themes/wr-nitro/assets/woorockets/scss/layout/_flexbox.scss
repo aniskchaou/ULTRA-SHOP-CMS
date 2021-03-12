@@ -1,0 +1,74 @@
+/*	[ Flex layout ]
+- - - - - - - - - - - - - - - - - - - - */
+.fc,
+.vc_row-o-content-middle > .container,
+.vc_row-o-content-bottom > .container {
+	@extend %fc;
+}
+.fcw {
+	@extend %fcw;
+}
+.fcnw {
+	@extend %fcnw;
+}
+.fcwr {
+	@extend %fcwr;
+}
+.fcrr {
+	@extend %fcrr;
+}
+.fcc {
+	@extend %fcc;
+}
+.fccr {
+	@extend %fccr;
+}
+.fc.aic,
+.vc_row-o-content-middle > .container {
+	@extend %aic;
+}
+.fc.aife,
+.vc_row-o-content-bottom > .container {
+	@extend %aife;
+}
+.fc {
+	&.aib {
+		@extend %aib;
+	}
+	&.aifs {
+		@extend %aifs;
+	}
+	&.jcc {
+		@extend %jcc;
+	}
+	&.jcsa {
+		@extend %jcsa;
+	}
+	&.jcsb {
+		@extend %jcsb;
+	}
+	&.jcfe {
+		@extend %jcfe;
+	}
+	&.jcfs {
+		@extend %jcfs;
+	}
+	&.acfs {
+		@extend %acfs;
+	}
+	&.acc {
+		@extend %acc;
+	}
+	&.acfe {
+		@extend %acfe;
+	}
+	&.acsa {
+		@extend %acsa;
+	}
+	&.acsb {
+		@extend %acsb;
+	}
+	.grow {
+		@extend %grow;
+	}
+}

@@ -1,0 +1,519 @@
+.snp-theme2 .snp-share {
+    display: inline-block;
+    padding: 0 5px;
+    vertical-align: middle;
+    line-height: 28px;
+}
+
+.snp-theme2 .snp-share-gp {
+    width: 69px;
+}
+
+.snp-theme2 .snp-share-gp div {
+    display: block !important;
+}
+
+.snp-theme2 .snp-share-tw {
+    width: 90px;
+}
+
+.snp-theme2 .snp-share-pi img {
+    vertical-align: top;
+}
+
+.snp-wrap .fancybox-opened .fancybox-skin {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.snp-theme2 .snp-img-div {
+    text-align: center;
+}
+.snp-theme2 {
+    position: relative;
+    width: 782px;
+    padding: 30px 38px 20px;
+    border: 3px solid #bac0ac;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+
+    color: #252525;
+    background: #f1f1f1;
+
+    -webkit-box-shadow: inset 0 0 0 5px #fff, 0 10px 25px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 0 0 5px #fff, 0 10px 25px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 0 5px #fff, 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.snp-theme2 .snp-columns {
+    position: relative;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.snp-theme2 h1 {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #ff4411;
+    text-align: center;
+}
+
+.snp-theme2 h1 {
+    margin-bottom: 20px;
+}
+
+.snp-theme2 .snp-info {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.snp-theme2 .snp-features {
+    margin-bottom: 15px;
+}
+
+.snp-theme2 .snp-features li {
+    position: relative;
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 35px;
+    font-size: 13px;
+    background: url(gfx/tick.png) no-repeat 0 2px;
+    font-weight: bold;
+}
+
+.snp-theme2 .snp-features li:first-child {
+    margin-top: 0;
+}
+
+.snp-theme2 {
+    position: relative;
+}
+
+.snp-theme2 .snp-footer {
+    padding: 10px 0 12px;
+}
+
+.snp-theme2 .snp-footer,
+.snp-theme2 .snp-footer p {
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #ba9551;
+}
+
+.snp-theme2 .snp-footer a {
+    text-decoration: underline;
+}
+
+.snp-theme2 .snp-privacy {
+    position: relative;
+    padding-left: 31px;
+    font-size: 12px;
+    color: #8b8b8b;
+    margin-bottom: 0px !important;
+}
+
+.snp-theme2 .snp-privacy a:hover {
+    text-decoration: underline;
+}
+
+.snp-theme2 .snp-privacy:before {
+    content: url(gfx/locker.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.snp-theme2 .snp-no-thx {
+    text-decoration: underline;
+    font-size: 12px;
+    color: #8b8b8b;
+}
+
+.snp-theme2 .snp-subscribe {
+    float: right;
+    width: 326px;
+
+
+    z-index: 1000;
+    position: relative;
+    padding: 24px;
+
+
+    border: 3px solid #ff4411;
+
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+
+
+
+    margin-right: -24px;
+
+    margin-top: -16px;
+    margin-bottom: -11px;
+}
+
+.snp-theme2 .snp-subscribe-social {
+    padding-top: 43px;
+    padding-left: 0;
+    text-align: center;
+    line-height: 30px;
+}
+
+.snp-theme2 .snp-subscribe-outer {
+    display: table;
+    height: 100%;
+}
+
+.snp-theme2 .snp-subscribe-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.snp-theme2 .snp-subscribe h2 {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    text-align: center;
+    color: #252525;
+    line-height: 1.5;
+}
+
+.snp-theme2 .snp-field {
+    width: 100%;
+    height: 38px;
+    margin-bottom: 16px;
+    padding: 10px 14px 10px 46px;
+    border: 0;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 19px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    background: #fff;
+    background: #ff5611;
+    -webkit-box-shadow: inset 1px 3px 2px #be4b0d;
+    -moz-box-shadow: inset 1px 3px 2px #be4b0d;
+    box-shadow: inset 1px 3px 2px #be4b0d;
+}
+.snp-theme2 .snp-error {
+    color: #CC0000 !important;
+    box-shadow: inset 1px 3px 2px #CC0000 !important;
+}
+
+.snp-theme2 ::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.snp-theme2 input:-moz-placeholder {
+    color: #fff;
+}
+
+.snp-theme2 .placeholder {
+    color: #fff;
+}
+
+.snp-theme2 .snp-error::-webkit-input-placeholder { color: #CC0000; }
+.snp-theme2 input.snp-error:-moz-placeholder { color: #515151; }
+.snp-theme2 .snp-error.placeholder { color: #515151; }
+
+.snp-theme2 .snp-subscribe-button {
+    display: block;
+    width: 100%;
+    height: 38px;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+
+    border: 0;
+    border-bottom: 1px solid #161619;
+    -webkit-border-radius: 5px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 5px;
+    -moz-border-radius: 19px;
+    border-radius: 5px;
+    border-radius: 19px;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #fff;
+    background: #1a1a1a;
+    -webkit-box-shadow: 1px 1px 1px #b9b9b9;
+    box-shadow: 1px 1px 1px #b9b9b9;
+
+    background-image: -webkit-linear-gradient( top, #252525  0, #141414  100%);
+    background-image: -moz-linear-gradient( top, #252525  0, #141414  100%);
+    background-image: -ms-linear-gradient( top, #252525  0, #141414  100%);
+    background-image: -o-linear-gradient( top, #252525  0, #141414  100%);
+    background-image: linear-gradient( top, #252525  0, #141414  100%);
+}
+.snp-theme2 .snp-field {
+     background-color: #ff5611;
+     background-repeat: no-repeat;
+}
+.snp-theme2 .snp-field-name {
+    background-image: url(gfx/input-name.png);
+    background-position: 17px 9px;
+}
+
+.snp-theme2 .snp-field-email {
+    background-image: url(gfx/input-email.png);
+    background-position: 17px 12px;
+}
+
+.snp-theme2 .snp-field-phone {
+    background-image: url(gfx/input-phone.png);
+    background-position: 17px 12px;
+}
+
+.snp-theme2 .snp-field-website {
+    background-image: url(gfx/input-website.png);
+    background-position: 17px 11px;
+}
+
+.snp-theme2 .snp-field-address {
+    background-image: url(gfx/input-address.png);
+    background-position: 17px 11px;
+}
+
+
+
+.snp-theme2 .snp-subscribe-button:active {
+    position: relative;
+    top: 2px;
+}
+
+.snp-theme2 .snp-subscribe .snp-field {
+    float: left;
+    margin-right: 15px;
+}
+
+.snp-theme2 .snp-columns:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    background: #4f4f55;
+}
+
+.snp-theme2 .snp-powered {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom: -36px;
+    height: 46px;
+    padding: 10px 35px 0;
+    padding-top: 10px;
+    -webkit-border-bottom-left-radius: 6px;
+    -webkit-border-bottom-right-radius: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-shadow: 1px 1px #992f0a  ;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 36px;
+    background: #e4590f;
+    color: #fff;
+}
+
+.snp-theme2 .snp-image {
+    margin-bottom: 20px;
+}
+
+.snp-theme2 .snp-left {
+    float: left;
+    width: 430px;
+    margin-left: -10px;
+}
+
+
+.snp-theme2 .snp-left p, .snp-theme2 .snp-subscribe p {
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.snp-theme2 .snp-img-left {
+    float: left;
+    margin-right: 25px;
+
+}
+
+.snp-theme2 .snp-content {
+    /*margin-left: 130px;*/
+}
+
+.snp-theme2 .snp-subscribe p {
+    font-size: 13px;
+}
+
+/* GREEN */
+.snp-theme2-lightgreen h1, .snp-theme2-darkgreen h1 {
+    color: #548806;
+}
+.snp-theme2-lightgreen .snp-subscribe, .snp-theme2-darkgreen .snp-subscribe {
+    border: 3px solid #548806;
+}
+.snp-theme2-lightgreen .snp-powered, .snp-theme2-darkgreen .snp-powered {
+    text-shadow: 1px 1px #548806;
+    background: #548806;
+}
+.snp-theme2-lightgreen .snp-features li, .snp-theme2-darkgreen .snp-features li {
+    background: url(gfx/tick_green.png) no-repeat 0 2px;
+}
+
+.snp-theme2-lightgreen .snp-field {
+    background-color: #6fa819;
+    -webkit-box-shadow: inset 1px 3px 2px #548806;
+    -moz-box-shadow: inset 1px 3px 2px #548806;
+    box-shadow: inset 1px 3px 2px #548806;
+}
+
+/* BLUE */
+.snp-theme2-lightblue h1, .snp-theme2-darkblue h1 {
+    color: #2e80c1;
+}
+.snp-theme2-lightblue .snp-subscribe, .snp-theme2-darkblue .snp-subscribe {
+    border: 3px solid #2e80c1;
+}
+.snp-theme2-lightblue .snp-powered, .snp-theme2-darkblue .snp-powered {
+    text-shadow: 1px 1px #2e80c1;
+    background: #2e80c1;
+}
+.snp-theme2-lightblue .snp-features li, .snp-theme2-darkblue .snp-features li {
+    background: url(gfx/tick_blue.png) no-repeat 0 2px;
+}
+
+.snp-theme2-lightblue .snp-field {
+    background-color: #469adb;
+    -webkit-box-shadow: inset 1px 3px 2px #2e80c1;
+    -moz-box-shadow: inset 1px 3px 2px #2e80c1;
+    box-shadow: inset 1px 3px 2px #2e80c1;
+}
+
+
+/* RED */
+.snp-theme2-lightred h1, .snp-theme2-darkred h1 {
+    color: #C51919;
+}
+.snp-theme2-lightred .snp-subscribe, .snp-theme2-darkred .snp-subscribe {
+    border: 3px solid #C51919;
+}
+.snp-theme2-lightred .snp-powered, .snp-theme2-darkred .snp-powered {
+    background: #C51919;
+}
+.snp-theme2-lightred .snp-features li, .snp-theme2-darkred .snp-features li {
+    background: url(gfx/tick_red.png) no-repeat 0 2px;
+}
+
+.snp-theme2-lightred .snp-field-name {
+    background-color: #ea4b4b;
+    -webkit-box-shadow: inset 1px 3px 2px #C51919;
+    -moz-box-shadow: inset 1px 3px 2px #C51919;
+    box-shadow: inset 1px 3px 2px #C51919;
+}
+
+.snp-theme2-lightred .snp-error, .snp-theme2-darkred .snp-error {
+    color: #fff !important;
+    box-shadow: inset 1px 3px 2px #fff !important;
+}
+
+/* YELLOW */
+.snp-theme2-lightyellow h1, .snp-theme2-darkyellow h1 {
+    color: #d79f00;
+}
+.snp-theme2-lightyellow .snp-subscribe, .snp-theme2-darkyellow .snp-subscribe {
+    border: 3px solid #d79f00;
+}
+.snp-theme2-lightyellow .snp-powered, .snp-theme2-darkyellow .snp-powered {
+    text-shadow: 1px 1px #d79f00;
+    background: #d79f00;
+}
+.snp-theme2-lightyellow .snp-features li, .snp-theme2-darkyellow .snp-features li {
+    background: url(gfx/tick_yellow.png) no-repeat 0 2px;
+}
+
+.snp-theme2-lightyellow .snp-field {
+    background-color: #ffff5b;
+    -webkit-box-shadow: inset 1px 3px 2px #edd102;
+    -moz-box-shadow: inset 1px 3px 2px #edd102;
+    box-shadow: inset 1px 3px 2px #edd102;
+    color: #252525;
+}
+
+.snp-theme2-lightyellow ::-webkit-input-placeholder {
+    color: #252525;
+}
+
+.snp-theme2-lightyellow input:-moz-placeholder {
+    color: #252525;
+}
+
+.snp-theme2-lightyellow .placeholder {
+    color: #252525;
+}
+
+
+/* DARK */
+.snp-theme2-darkyellow, .snp-theme2-darkred, .snp-theme2-darkorange, .snp-theme2-darkgreen, .snp-theme2-darkblue {
+    background: #34343c;
+    background-image: -webkit-linear-gradient(top, #24252a 0, #3e3e48 30%, #3e3e48 70%, #24252a 100%);
+    background-image: -moz-linear-gradient(top, #24252a 0, #3e3e48 30%, #3e3e48 70%, #24252a 100%);
+    background-image: -ms-linear-gradient(top, #24252a 0, #3e3e48 30%, #3e3e48 70%, #24252a 100%);
+    background-image: -o-linear-gradient(top, #24252a 0, #3e3e48 30%, #3e3e48 70%, #24252a 100%);
+    background-image: linear-gradient(top, #24252a 0, #3e3e48 30%, #3e3e48 70%, #24252a 100%);
+    color:#fff;
+    border: 1px solid #34343c;
+    -webkit-box-shadow: inset 0 0 0 5px #8B8B8B, 0 10px 25px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0 0 0 5px #8B8B8B, 0 10px 25px rgba(0,0,0,0.5);
+    box-shadow: inset 0 0 0 5px #8B8B8B, 0 10px 25px rgba(0,0,0,0.5);
+}
+.snp-theme2-darkyellow .snp-subscribe h2, .snp-theme2-darkred .snp-subscribe h2, .snp-theme2-darkorange .snp-subscribe h2, .snp-theme2-darkgreen .snp-subscribe h2, .snp-theme2-darkblue .snp-subscribe h2 {
+    color: #fff;
+}
+
+.snp-theme2-darkyellow .snp-subscribe-button, .snp-theme2-darkred .snp-subscribe-button, .snp-theme2-darkorange .snp-subscribe-button, .snp-theme2-darkgreen .snp-subscribe-button, .snp-theme2-darkblue .snp-subscribe-button{
+    -webkit-box-shadow: 1px 1px 1px #1A1A1A;
+    box-shadow: 1px 1px 1px #1A1A1A;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .snp-theme2 {  
+	width: auto !important;
+	padding-left: 14px;
+    }
+    .snp-theme2 img {  
+	max-width: 100%;
+    }
+    .snp-theme2 .snp-left {
+	display: none;
+    }
+    .snp-theme2 .snp-subscribe {
+	width: auto;
+	max-width: 326px;
+    }
+    .snp-theme2 .snp-subscribe-button {
+	height: auto;
+    }
+}

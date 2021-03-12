@@ -1,0 +1,178 @@
+.snp-newtheme3 {
+  background: #222222;
+  font-family: Arial;
+  font-weight: 400;
+  width: 660px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.snp-newtheme3 header {
+  overflow: hidden;
+  text-align: center;
+  color: #fff;
+}
+.snp-newtheme3 header h2,
+.snp-newtheme3 header h3 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  padding: 0 20px;
+  margin: 19px 0;
+}
+.snp-newtheme3 header h3 {
+  font-size: 16px;
+  text-transform: none;
+  margin: 16px 0;
+}
+.snp-newtheme3 header p {
+  text-align: center;
+  font-size: 12px;
+  padding: 0 20px;
+  margin: 12px 0;
+}
+.snp-newtheme3 footer {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 0;
+  color: #fff;
+}
+.snp-newtheme3 footer small {
+  font-size: 12px;
+}
+.snp-newtheme3 footer img {
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 5px;
+}
+.snp-newtheme3 .snp-newsletter-content {
+  background: #fb0007;
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+  padding: 20px 20px 15px;
+}
+.snp-newtheme3 .snp-newsletter-content h2 {
+  font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+}
+.snp-newtheme3 .snp-newsletter-content p {
+  text-align: center;
+  font-size: 12px;
+}
+.snp-newtheme3 .snp-newsletter-content p small {
+  font-size: 12px;
+}
+.snp-newtheme3 .snp-newsletter-content p img {
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 5px;
+}
+.snp-newtheme3 form input[type="text"],.snp-newtheme3 form select,.snp-newtheme3 form textarea,
+.snp-newtheme3 form input[type="text"]:focus ,.snp-newtheme3 form select:focus ,.snp-newtheme3 form textarea:focus  {
+  width: 100%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid transparent;
+  font-family: Arial, sans-serif;
+  background: transparent;
+  color: #959595;
+  background-color: #fff;
+  font-size: 14px;
+  text-align: left;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
+  color: #777;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.snp-newtheme3 form input[type="submit"] {
+  background: transparent;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  display: block;
+  width: 200px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 0 auto;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  border: 4px solid #fff;
+}
+.snp-newtheme3 form input[type="submit"]:hover {
+  background-color: #222222;
+  border-color: #222222;
+  color: #fff;
+}
+
+.snp-newtheme3 form select option{
+    background: #fff;
+    color: #000;
+}
+
+.snp-newtheme3 .snp-error {
+    color: #CC0000 !important;
+    border: 1px solid #CC0000 !important;
+}
+.snp-newtheme3 .snp-error::-webkit-input-placeholder { color: #CC0000; }
+.snp-newtheme3 input.snp-error:-moz-placeholder { color: #515151; }
+.snp-newtheme3 .snp-error.placeholder { color: #515151; }
+
+
+
+.snp-newtheme3 .snp-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background: url('../img/close.png') no-repeat scroll 0 0 transparent;
+  cursor: pointer;
+}
+@media (max-width: 700px) {
+  .snp-newtheme3 {
+    max-width: 460px !important;
+  }
+}
+@media (max-width: 460px) {
+  .snp-newtheme3 {
+    max-width: 100% !important;
+  }
+  .snp-newtheme3 header h2 {
+    margin-top: 45px;
+  }
+}
+
+.snp-pop-newtheme3-wrap .fancybox-close {
+    display: none;
+}

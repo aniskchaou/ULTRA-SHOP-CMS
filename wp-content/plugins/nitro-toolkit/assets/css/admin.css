@@ -1,0 +1,304 @@
+/**
+ * @version    1.0
+ * @package    Nitro
+ * @author     WooRockets Team <support@woorockets.com>
+ * @copyright  Copyright (C) 2014 WooRockets.com. All Rights Reserved.
+ * @license    GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Websites: http://www.woorockets.com
+ */
+
+.mgt15 {
+	margin-top: 15px;
+}
+.mgb15 {
+	margin-bottom: 15px;
+}
+.mgb20 {
+	margin-bottom: 20px;
+}
+.mgt20 {
+	margin-top: 20px;
+}
+.vc_properties-list select {
+	height: 38px;
+}
+.mgt60m {
+	margin-top: -62px;
+	max-width: 350px;
+}
+.vc_css-editor .vc_settings > div:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.vc_wrapper-param-type-checkbox input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+/*  [ New parameter ]
+- - - - - - - - - - - - - - - - - - - - */
+.vc_edit-form-tab.vc_row {
+	margin: 0 -18px;
+}
+.wpb_el_type_sub_heading {
+	background: #f2f2f2;
+	border-bottom: 1px solid #e9e9e9;
+	border-top: 1px solid #e9e9e9;
+	font-size: 15px;
+	margin: 20px 0 10px;
+	padding: 12px 18px !important;
+}
+.wpb_el_type_sub_heading:first-child {
+	margin-top: 0;
+}
+.wpb_el_type_sub_heading > .wpb_element_label {
+	margin-bottom: 0;
+}
+.wr-slider .ui-slider {
+	background: #cacaca;
+	height: 2px;
+	margin: 1em 0;
+	border: 0;
+	width: calc(100% - 65px);
+	position: relative;
+	-ms-touch-action: pan-y pinch-zoom double-tap-zoom;
+}
+.wr-slider .input-wrap {
+	color: rgba(51, 51, 51, 0.5);
+	font-size: 12px;
+	position: absolute;
+	right: -65px;
+	text-align: right;
+	top: -10px;
+	white-space: nowrap;
+	width: 65px;
+}
+.wr-slider .input-range-number {
+	background:none;
+	border: 0;
+	box-shadow: none;
+	padding: 0;
+	text-align: right;
+	width: calc(100% - 20px);
+}
+.wr-slider .ui-slider .ui-slider-handle {
+	background: #fff;
+	border: 2px solid #4eb9ff;
+	border-radius: 50%;
+	cursor: pointer;
+	height: 8px;
+	margin-left: -4px;
+	position: absolute;
+	top: -5px;
+	width: 8px;
+	z-index: 1;
+	-webkit-transition: width .3s, height .3s, margin .3s, top .3s;
+	transition: width .3s, height .3s, margin .3s, top .3s;
+}
+.wr-slider .ui-slider .ui-slider-handle span {
+	color: #929292;
+	font-size: 12px;
+	position: relative;
+	z-index: 10;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .9);
+}
+.wr-toggle button {
+	background: #fff;
+	border: 1px solid #dadada;
+	border-radius: 40px;
+	box-sizing: border-box;
+	cursor: pointer;
+	height: 28px;
+	position: relative;
+	width: 60px;
+}
+.wr-toggle button:before,
+.wr-toggle button:after {
+	position: absolute;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.wr-toggle button:before {
+	border: 1px solid #dadada;
+	border-radius: 50%;
+	content: "";
+	height: 20px;
+	left: 2px;
+	top: 2px;
+	width: 20px;
+	background: #fff;
+}
+.wr-toggle button:after {
+	color: #ccc;
+	content: "OFF";
+	font-size: 10px;
+	font-weight: bold;
+	left: 0;
+	right: -18px;
+	top: 5px;
+}
+.wr-toggle button[data-on="true"] {
+	background: #88c648;
+	border-color: #88c648;
+}
+.wr-toggle button[data-on="true"]:before {
+	left: 34px;
+	border-color: #fff;
+}
+.wr-toggle button[data-on="true"]:after {
+	color: #fff;
+	content: "ON";
+	right: 20px;
+}
+.vc_admin_label {
+	position: relative;
+	top: 10px;
+}
+.vc_admin_label.admin_label_animation_in_type,
+.vc_admin_label.admin_label_animation_loop_type {
+	top: -10px;
+}
+.wpb_column_container + .vc_admin_label {
+	margin-left: 50px;
+}
+
+/*  [ Modal ]
+- - - - - - - - - - - - - - - - - - - - */
+#vc_ui-panel-add-element .vc_ui-add-element-header-container  {
+	background: #f6f6f6;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 16px 25px 20px;
+}
+#vc_ui-panel-add-element .vc_ui-panel-header-heading,
+.vc_add-element-container .wpb-content-layouts a .vc_element-description {
+	display: none;
+}
+#vc_ui-panel-add-element .vc_ui-panel-header-controls,
+#vc_ui-panel-add-element .vc_ui-panel-header-header {
+	position: absolute;
+}
+#vc_ui-panel-add-element .vc_ui-panel-header-header {
+	right: 30px;
+}
+#vc_ui-panel-add-element .vc_ui-panel-header-controls {
+	background: #3d3d3d;
+	height: 28px;
+	margin: 0;
+	right: -15px;
+	top: -15px;
+	width: 28px;
+	text-align: center;
+}
+#vc_ui-panel-add-element .vc_ui-search-box input[type="search"] {
+	border-radius: 30px;
+	height: 36px;
+	background-color: #e8e8e8;
+	background-position: 92%;
+	box-shadow: none;
+	margin-right: 15px;
+	border: 1px solid #ddd;
+}
+#vc_ui-panel-add-element .vc_ui-search-box input[type="search"]:focus {
+	border-color: #bbb;
+	box-shadow: none;
+}
+#vc_ui-panel-add-element .vc_general.vc_ui-tabs-line .vc_edit-form-tab-control {
+	margin-left: 5px;
+}
+#vc_ui-panel-add-element .vc_general.vc_ui-tabs-line .vc_edit-form-tab-control:first-child {
+	margin-left: 0;
+}
+#vc_ui-panel-add-element .vc_general.vc_ui-tabs-line .vc_ui-tabs-line-trigger {
+	border-bottom: 0 ;
+	border-radius: 30px;
+	color: #7d7d7d;
+	display: block;
+	font-size: 12px;
+	height: 32px;
+	line-height: 22px;
+	padding: 0 16px;
+	-webkit-transition: all .3s;
+	-moz-transition:    all .3s;
+	transition:         all .3s;
+}
+#vc_ui-panel-add-element .vc_general.vc_ui-tabs-line .vc_active .vc_ui-tabs-line-trigger,
+#vc_ui-panel-add-element .vc_general.vc_ui-tabs-line .vc_active .vc_ui-tabs-line-trigger:hover {
+	color: #fff;
+	background: #515151;
+}
+#vc_ui-panel-add-element .vc_add-element-container .wpb-elements-list {
+	padding: 30px 25px;
+}
+#vc_ui-panel-add-element .vc_add-element-container .wpb-content-layouts li {
+	border-color: #e1e1e1;
+	height: 40px;
+	border-radius: 2px;
+	margin: 5px;
+	padding: 0;
+	width: calc(20% - 10px);
+}
+#vc_ui-panel-add-element .vc_add-element-container .wpb-content-layouts li:hover {
+	border-color: #aaa;
+}
+.vc_add-element-container .wpb-content-layouts li .vc_el-container {
+	height: 38px;
+}
+#vc_ui-panel-add-element .vc_add-element-container .wpb-content-layouts li a {
+	display: block;
+	padding: 0 0 0 30px;
+	line-height: 36px;
+	font-weight: 500;
+	font-size: 13px;
+	color: #777;
+}
+#vc_ui-panel-add-element .vc_add-element-container .wpb-content-layouts li[data-element^="mpc_"] a {
+	padding-left: 45px;
+}
+#vc_ui-panel-add-element .vc_add-element-container .wpb-content-layouts li a:focus {
+	box-shadow: none;
+}
+#vc_ui-panel-add-element .vc_add-element-container .wpb-content-layouts li .vc_element-icon {
+	height: auto;
+	left: 12px;
+	top: 12px;
+	width: auto;
+	background: none;
+	font-size: 14px;
+}
+#vc_ui-panel-add-element .vc_add-element-container .wpb-content-layouts li[data-element^="mpc_"] .vc_element-icon {
+	top: 3px;
+	left: 3px;
+}
+.wpb_element_wrapper .vc_element-icon {
+	background: none;
+	font-size: 28px;
+}
+.vc_edit-form-tab .wpb_element_label,
+.vc_edit-form-tab .vc_element_label {
+	font-weight: 600;
+}
+.wpb_nitro_masonry .wpb_column_container .wpb_nitro_masonry_element {
+	margin: 0 0 20px;
+	border: 1px solid #eee;
+	padding-bottom: 20px;
+}
+.wpb_nitro_masonry .wpb_column_container .wpb_nitro_masonry_element:nth-child(2n+1) {
+	background: #f5f5f5;
+}
+.wpb_nitro_masonry.vc_shortcodes_container > .wpb_element_wrapper > .vc_container_for_children {
+	outline: 0;
+}
+.wpb_nitro_masonry_element > .vc_controls > .column_move,
+.wpb_nitro_masonry_element:not(.vc_empty-column) .controls_column.bottom-controls,
+.wpb_nitro_masonry_element:not(.vc_empty-column) .controls_column .column_add,
+.wpb_nitro_masonry_element:not(.vc_empty-column) .controls_column .column_clone,
+.wpb_nitro_masonry_element:not(.vc_empty-column) .vc_control-btn-clone {
+	display: none;
+}
+.wpb_nitro_masonry_element:not(.vc_empty-column) .wpb_nitro_carousel .controls_column.bottom-controls,
+.wpb_nitro_masonry_element:not(.vc_empty-column) .wpb_nitro_carousel .controls_column .column_add,
+.wpb_nitro_masonry_element:not(.vc_empty-column) .wpb_nitro_carousel .vc_control-btn-clone,
+.wpb_nitro_masonry_element:not(.vc_empty-column) .wpb_nitro_testimonial .vc_controls .column_add {
+	display: inline-block;
+}

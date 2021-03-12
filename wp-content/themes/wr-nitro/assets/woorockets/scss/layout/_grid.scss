@@ -1,0 +1,49 @@
+/*	[ Grid layout ]
+- - - - - - - - - - - - - - - - - - - - */
+.container {
+	@extend %container;
+}
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+.primary-sidebar-inner:before,
+.primary-sidebar-inner:after {
+	content: " ";
+	display: table;
+}
+.container:after,
+.row:after {
+	clear: both;
+}
+.row [class*="cm-"] {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+// Create column width
+@for $i from 12 through 1 {
+	.cm-#{$i} { width: 100% / 12 * $i; }
+}
+// Create position of column
+@for $i from 12 through 1 {
+	.cpl-#{$i} { right: 100% / 12 * $i; }
+}
+
+@for $i from 12 through 1 {
+	.cph-#{$i} { left: 100% / 12 * $i; }
+}
+.cpl-0 {
+	right: auto;
+}
+.cph-0 {
+	left: auto;
+}
+
+// Create column offset
+@for $i from 12 through 0 {
+	.cm-offset-#{$i} { margin-left: 100% / 12 * $i; }
+}

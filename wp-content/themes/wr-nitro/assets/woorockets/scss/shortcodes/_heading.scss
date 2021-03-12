@@ -1,0 +1,58 @@
+/*	[ Heading]
+- - - - - - - - - - - - - - - - - - - - */
+.nitro-heading {
+	&.tc {
+		margin: auto;
+		position: relative;
+		display: table;
+	}
+	.heading > * {
+		margin: 0;
+	}
+	.sep {
+		&.icon.bottom,
+		&.image.bottom {
+			margin-top: 20px;
+		}
+		&.icon.top,
+		&.image.top {
+			margin-bottom: 20px;
+		}
+		&.has-line {
+			position: relative;
+		}
+		&.has-line:before,
+		&.has-line:after {
+			content: "";
+			position: absolute;
+		}
+	}
+	&.tc .sep.has-line:before,
+	.sep.has-line:after {
+		background: #c5c5c5;
+		width: 45px;
+		height: 1px;
+		top: 50%;
+	}
+	&.tc {
+		.sep.has-line {
+			display: table;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.sep.has-line:before {
+			left: -55px;
+		}
+		.sep.has-line:after {
+			right: -55px;
+		}
+	}
+	&.tl {
+		.sep.icon.has-line span {
+			padding-right: 5px;
+		}
+		.sep.image.has-line img {
+			margin-right: 7px;
+		}
+	}
+}

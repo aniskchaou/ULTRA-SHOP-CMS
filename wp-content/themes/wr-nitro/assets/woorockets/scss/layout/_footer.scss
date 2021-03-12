@@ -1,0 +1,113 @@
+
+/*	[ Footer ]
+- - - - - - - - - - - - - - - - - - - - */
+.footer {
+	.top-inner,
+	.bot .info {
+		@extend %container;
+	}
+	.top {
+		padding: 50px 0 35px;
+	}
+	.widget {
+		&:not(:last-child) {
+			margin-bottom: 30px;
+		}
+	}
+	.widget-title {
+		text-transform: none;
+		font-size: 16px;
+		+ * {
+			padding: 0;
+		}
+	}
+	.bot {
+		padding: 25px 0;
+		position: relative;
+		font-size: 12px;
+		border-top: 1px solid rgba(255, 255, 255, 0.1);
+		.info {
+			text-align: center;
+			line-height: 24px;
+		}
+	}
+	.footer-logo {
+		margin-bottom: 8px;
+	}
+	.footer-menu ul {
+		padding: 0;
+		display: inline-block;
+		text-align: center;
+		font-size: 12px;
+		li {
+			float: left;
+			list-style: none;
+			position: relative;
+			margin-right: 12px;
+			padding-right: 12px;
+			&:after {
+				@include absolute($top: 4px, $right: 0);
+				@include size(1px, 11px);
+				content: "";
+				background: #4a4a4a;
+			}
+			&:last-child:after {
+				background: none;
+			}
+			a {
+			color: $text-color;
+			&:hover {
+					color: $primary-color;
+				}
+			}
+		}
+	}
+	.site-navigator li {
+		a {
+			padding: 0;
+		}
+		&.new a,
+		&.hot a {
+			position: relative;
+		}
+		&.new a:after,
+		&.hot a:after,
+		&.new a:before,
+		&.hot a:before {
+			position: absolute;
+		}
+		&.new a:after,
+		&.hot a:after {
+			font-size: 12px;
+			height: 15px;
+			padding: 0 5px;
+			border-radius: 2px 2px 2px 0;
+			line-height: 14px;
+			top: -8px;
+			color: #fff;
+		}
+		&.new a:before,
+		&.hot a:before {
+			@include rotate(-45deg);
+			border: 4px solid transparent;
+			content: "";
+			right: -7px;
+		}
+		&.new a:before {
+			border-bottom: 5px solid #87aa0c;
+			top: 2px;
+		}
+		&.new a:after {
+			content: "new";
+			background: #87aa0c;
+			right: -35px;
+		}
+		&.hot a:before {
+			border-bottom: 5px solid #c01a08;
+		}
+		&.hot a:after {
+			content: "hot";
+			background: #c01a08;
+		}
+	}
+}

@@ -1,0 +1,98 @@
+
+/*	[ Add To Cart ]
+- - - - - - - - - - - - - - - - - - - - */
+.sc-product-button {
+	> *:not(:last-child) {
+		margin-right: 6px;
+	}
+	a {
+		display: block;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		border: 0;
+		border-radius: 2px !important;
+		line-height: 50px;
+		position: relative;
+	}
+	.button {
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		padding: 0 25px;
+		text-transform: uppercase;
+		width: auto;
+		i {
+			font-size: 15px;
+			margin-right: 15px;
+		}
+		span.tooltip {
+			background: none;
+			color: #fff;
+			left: auto;
+			opacity: 1;
+			position: relative;
+			top: auto;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+			visibility: visible;
+			padding: 0;
+		}
+	}
+	&.btn-radius a {
+		border-radius: 40px !important;
+	}
+	&.light a {
+		border: 1px solid $border-color;
+	}
+	&.light .button span.tooltip {
+		color: $text-color;
+	}
+	.button:hover span.tooltip {
+		color: #fff;
+		top: auto;
+	}
+	.button span.tooltip:before {
+		@extend %display-none;
+	}
+	a span.tooltip {
+		left: 50%;
+		top: -32px;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+	a:not(.button):hover span.tooltip {
+		top: -42px;
+	}
+	&.dark a {
+		background: #3d3d3d;
+		color: #fff;
+		position: relative;
+	}
+	&.light a {
+		background: #f9f9f9;
+		color: $text-color;
+	}
+	a:hover,
+	&.light .button span.tooltip:hover {
+		background: $primary-color;
+		color: #fff;
+	}
+	a:hover i,
+	&.dark a i {
+		color: #fff !important;
+	}
+	.product__btn_cart span {
+		@extend %translateX-50;
+		left: 50%;
+		top: -40px;
+	}
+	> * span.tooltip:before {
+		@include calc(right, '50% - 5px');
+		border-left: 5px solid transparent;
+		border-top: 5px solid rgba(0, 0, 0, 0.8);
+		top: 100%;
+	}
+}

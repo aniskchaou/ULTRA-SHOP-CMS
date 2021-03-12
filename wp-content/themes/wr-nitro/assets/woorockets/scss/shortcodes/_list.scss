@@ -1,0 +1,37 @@
+/*	[ List]
+- - - - - - - - - - - - - - - - - - - - */
+.nitro-list {
+	ul {
+		counter-reset: my-badass-counter;
+	}
+	&.none li,
+	&.number-list li,
+	&.icon-list li {
+		list-style: none !important;
+	}
+	&.number-list ul span {
+		@include square(20px);
+		line-height: 22px;
+		margin-right: 10px;
+		font-size: 12px;
+		border-radius: 100%;
+		padding: 0;
+		&:before {
+			content: counter(my-badass-counter);
+			counter-increment: my-badass-counter;
+		}
+	}
+	&.square ul li {
+		list-style: square;
+	}
+	&.dot ul li {
+		list-style: initial;
+	}
+	&.square ul,
+	&.dot ul {
+		margin-left: 15px;
+	}
+	&.icon-list span {
+		width: 20px;
+	}
+}
